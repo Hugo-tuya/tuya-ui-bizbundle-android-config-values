@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><resources>
   <string name="AES_KEY_LOAD_ERROR">Failed to get decryption service</string>
+  <string name="CATEGORY_ICON_ELECTRICAL_APPLIANCES">Appliance</string>
+  <string name="CATEGORY_ICON_LAMPS">Lighting</string>
   <string name="Confirm">Confirm</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_DESC_GEOGRAPHYARRIVE">Unlocked</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_DESC_GEOGRAPHYLEAVE">Locked</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_TITLE_GEOGRAPHYARRIVE">Arrive Home</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_TITLE_GEOGRAPHYLEAVE">Leave Home</string>
   <string name="Help">Help</string>
   <string name="MULTI_CONTROL_GROUP_EXCEED_MAX_COUNT">Exceeded limit: %s</string>
   <string name="NSBluetoothAlwaysUsageDescription">This will allow the app to find and connect Bluetooth accessories. This app may also use Bluetooth to locate Bluetooth device.</string>
@@ -19,6 +25,7 @@
   <string name="NUMEN_SET_OWNER_FOR_LOCATION_MSG_TITLE">Transfer of home ownership</string>
   <string name="OUT_OF_DEV_STORAGE_CAPACITY">Out of cloud storage</string>
   <string name="OUT_OF_FILE_CAPACITY">Your image is more than %sMB</string>
+  <string name="PRODUCT_NOT_EXISTS">NA</string>
   <string name="ROOM_EXIST_DONT_ADD">The name is already being used, please try another name.</string>
   <string name="_device">%s Device(s)</string>
   <string name="_room">%s Room(s)</string>
@@ -166,7 +173,7 @@
   <string name="cancel_tip">Got It</string>
   <string name="cannot_input_empty_string">The input cannot be empty</string>
   <string name="cannot_load_image">Failed to load image</string>
-  <string name="cant_share_reason">A single Bluetooth mesh device, ZigBee device, or infrared (IR) device cannot be shared. Such a device can be shared only with relevant devices.</string>
+  <string name="cant_share_reason">A single Bluetooth mesh device, Zigbee device, or infrared (IR) device cannot be shared. Such a device can be shared only with relevant devices.</string>
   <string name="check_family">View Home</string>
   <string name="check_firmware_update">Device Update</string>
   <string name="check_update">Check for Firmware Update</string>
@@ -227,6 +234,7 @@
   <string name="config_failure_try_again">Try Again</string>
   <string name="config_guide_add_device">Tap + to add a smart device.</string>
   <string name="config_linkmode">Pairing Mode</string>
+  <string name="config_mode_not_support">Current version does not support this feature. To use this feature, please upgrade the version.</string>
   <string name="config_nearby_add_device_title">Add Device</string>
   <string name="config_nearby_alert_no_device">Search timed out. No devices found.</string>
   <string name="config_nearby_back_alert_no">Add</string>
@@ -263,7 +271,7 @@
   <string name="config_wifi_245g_warn">The current Wi-Fi is a mixed network. It is recommended to change the indicator light to slow flash. Do you want to switch?</string>
   <string name="config_wifi_245g_yes">Yes</string>
   <string name="config_wifi_5g_mixing_check">The current Wi-Fi is a mixed network. It is recommended to use the slow flash to distribute the network. Do you want to switch?</string>
-  <string name="config_wifi_5g_warn">You may fail to add deivces using the current 5 GHz Wi-Fi. Continue to change to 2.4 GHz Wi-Fi?</string>
+  <string name="config_wifi_5g_warn">Your mobile phone is connected to 5 GHz Wi-Fi. If the device does not support 5 GHz Wi-Fi, please change to 2.4 GHz Wi-Fi. Continue?</string>
   <string name="config_wifi_ap_desc">Suitable for slow flashing of indicators</string>
   <string name="config_wifi_ap_fragment_desc">If your Wi-Fi is 5GHz, please set it to 2.4GHz first.</string>
   <string name="config_wifi_ap_step1">1. Please connect your phone to the hotspot shown below</string>
@@ -392,7 +400,7 @@
   <string name="ez_notSupport_5G">Only 2.4 GHz Wi-Fi networks are supported</string>
   <string name="ez_notSupport_5G_change">Go to Change</string>
   <string name="ez_notSupport_5G_continue">Continue</string>
-  <string name="ez_notSupport_5G_tip">Only 2.4 GHz Wi-Fi networks are supported. Please select a 2.4 GHz network.</string>
+  <string name="ez_notSupport_5G_tip">Your mobile phone is connected to 5 GHz Wi-Fi. If the device does not support 5 GHz Wi-Fi, please change to 2.4 GHz Wi-Fi. Continue?</string>
   <string name="fail">Operation failed</string>
   <string name="family_action_confirm">Confirm</string>
   <string name="family_add_Incompatible">This account does not support the family mode and cannot be added to your family. We recommend that you contact the account owner to upgrade the app to the latest version.</string>
@@ -485,7 +493,7 @@
   <string name="firmware_upgrade_exception_check">View Instruction</string>
   <string name="firmware_upgrade_exception_msg">Due to the time change of summer and winter, update your device according to the following instructions to ensure effective timing function.</string>
   <string name="firmware_upgrade_exception_tip">Firmware Update Notification</string>
-  <string name="firmware_upgrade_failure">Update failed.Please keep your device as close to the router as possible and try again.</string>
+  <string name="firmware_upgrade_failure">The update failed. Check the network connection and try again.</string>
   <string name="firmware_upgrade_failure_description">Power off the device, restart it, and try again</string>
   <string name="firmware_upgrade_gw">Module Version:</string>
   <string name="firmware_upgrade_now">Update Now</string>
@@ -650,6 +658,9 @@ app to unlink the  %s  skill.</string>
   <string name="image_load_failure">Failed to load image</string>
   <string name="immediate_updates">Update Now</string>
   <string name="in_tuya_msg">Use it in the Tuya Smart app</string>
+  <string name="index_agreement">By using this service, you agree to {agreement}.</string>
+  <string name="index_apple_iap_pay">Apple Pay</string>
+  <string name="index_pay_not_support_iap">This version does not support in-app purchase. Please update to the latest version.</string>
   <string name="info_unselected">Select the messages to delete</string>
   <string name="initializer_apply_logout_tip">Account has been deleted, please log in again</string>
   <string name="initializer_multi_devices_apply_login_tip">This account is already logged in on another device</string>
@@ -728,6 +739,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_ai_fr_value_add_dig_body">Face Recognition is a value-add service. Purchase the service to use it.</string>
   <string name="ipc_ai_fr_value_add_dig_title">VAS</string>
   <string name="ipc_alarm_detected_feature_list">Detection Alarm Settings</string>
+  <string name="ipc_alarm_interval_set">Alarm Interval</string>
   <string name="ipc_alarm_region_settings_tips">Drag/Resize the red frame to set an activity area</string>
   <string name="ipc_alarm_timer_settings">Schedule</string>
   <string name="ipc_alarm_timer_settings_txt">Alarm Timer Settings</string>
@@ -894,6 +906,12 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_day_thu">Thurs.</string>
   <string name="ipc_day_tue">Tues.</string>
   <string name="ipc_day_wed">Wed.</string>
+  <string name="ipc_detection_alarm_audio">Alarm audio</string>
+  <string name="ipc_detection_alarm_interval">Alarm interval</string>
+  <string name="ipc_detection_alarm_switch">Alarm switch</string>
+  <string name="ipc_detection_alarm_volume">Alarm volume</string>
+  <string name="ipc_detection_area">area</string>
+  <string name="ipc_detection_pir">Detection alarm</string>
   <string name="ipc_digital_chime_time">Ringtone Duration</string>
   <string name="ipc_display_contrast">Contrast</string>
   <string name="ipc_doorbell_accept">Accept</string>
@@ -908,6 +926,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_doorbell_file_authority">For the best user experience, the app will play your phone\'s ringtone when the door rings, and that is why we need to access phone files.</string>
   <string name="ipc_doorbell_pic_load_fail_txt">Failed to load image</string>
   <string name="ipc_doorbell_pic_load_txt">Loading image...</string>
+  <string name="ipc_doorbell_set">Doorbell set</string>
   <string name="ipc_doorbell_tip">Doorbell is ringing. Waiting for an answer...</string>
   <string name="ipc_dp_save_fail">Operation failed</string>
   <string name="ipc_electric_lowpower_level">Set the low battery alarm threshold</string>
@@ -924,6 +943,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_errmsg_add_memory_point_max">The number of added sites has reached the upper limit. First delete one or more sites.</string>
   <string name="ipc_errmsg_ap_pwd_illegal">Illegal Password</string>
   <string name="ipc_errmsg_ap_pwd_illegal_body">Password must contain at least 8 letters or numbers.</string>
+  <string name="ipc_errmsg_ap_timeout">Response timed out</string>
   <string name="ipc_errmsg_awaken_without_permission">You are no allowed to use this function.</string>
   <string name="ipc_errmsg_camera_mode_lowbat">Low battery. Please charge the device and try again.</string>
   <string name="ipc_errmsg_cdf_cant_found_video">No videos found in current selection, please try again.</string>
@@ -1045,6 +1065,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_panel_button_cruise">Patrol</string>
   <string name="ipc_panel_button_cstorage">Cloud Storage</string>
   <string name="ipc_panel_button_direction">Direction</string>
+  <string name="ipc_panel_button_edit">Edit</string>
   <string name="ipc_panel_button_hibernate">Private Mode</string>
   <string name="ipc_panel_button_light">Light</string>
   <string name="ipc_panel_button_memory_point">Site</string>
@@ -1079,6 +1100,8 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_permission_skip">Skip</string>
   <string name="ipc_permission_storage">Tap to allow storage access and use the screenshot function</string>
   <string name="ipc_photo_album_title">Album</string>
+  <string name="ipc_pir_sensitivity">PIR_sensitivity</string>
+  <string name="ipc_pir_set">PIR set</string>
   <string name="ipc_pir_switch">PIR</string>
   <string name="ipc_play_mobileplay_tips">You are using your cellular data to watch the video. Pay attention to your data usage.</string>
   <string name="ipc_playback_no_records_today">No playback videos for the current day</string>
@@ -1095,6 +1118,10 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_record_type_doorbell_txt">Doorbell</string>
   <string name="ipc_record_type_motion_detected_txt">Motion Detection</string>
   <string name="ipc_record_type_video_txt">Recording</string>
+  <string name="ipc_recording_duration">Video Recording Duration</string>
+  <string name="ipc_recording_duration_finish">Early Termination</string>
+  <string name="ipc_recording_duration_finish_reminder">After Early Termination is enabled, if no PIR event triggers the video recording in 10s during recording duration, the device will go to sleep.</string>
+  <string name="ipc_recording_duration_set">Duration</string>
   <string name="ipc_remote_unlock_failed">Unlock Failed</string>
   <string name="ipc_remote_unlock_hint">slide to unlock</string>
   <string name="ipc_remote_unlock_open_door">Unlock</string>
@@ -1116,6 +1143,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_ringtone_7">Ringtone 7</string>
   <string name="ipc_ringtone_8">Ringtone 8</string>
   <string name="ipc_ringtone_9">Ringtone 9</string>
+  <string name="ipc_save_photo_reminder">Saved to the system album</string>
   <string name="ipc_screenshot_saved_tips_android">Screenshot has been saved in My Albums</string>
   <string name="ipc_sdcard_capacity">Storage Capacity</string>
   <string name="ipc_sdcard_capacity_residue">Remaining Capacity</string>
@@ -1140,6 +1168,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_sdcard_state_abnormal_tip">Storage error, please format it and try again</string>
   <string name="ipc_sdcard_state_capacity_insufficient_tip">Insufficient storage space</string>
   <string name="ipc_sdcard_timer_settings">Schedule</string>
+  <string name="ipc_selection_alarm_audio">Select alarm audio</string>
   <string name="ipc_setting_advanced_setting">Advanced Settings</string>
   <string name="ipc_setting_chime">Bell Settings</string>
   <string name="ipc_setting_multi_view">Multi-View</string>
@@ -1290,6 +1319,8 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_status_sdcard_format">Formatting...</string>
   <string name="ipc_status_stream">Retrieving video stream...</string>
   <string name="ipc_status_stream_failed">Failed to retrieve video stream</string>
+  <string name="ipc_strong_prompt_content">Are you sure to delete the created monitoring area?</string>
+  <string name="ipc_strong_prompt_title">Delete monitoring area</string>
   <string name="ipc_talkback_volume_txt">Volume</string>
   <string name="ipc_time_capsule_events">%s EVENTS</string>
   <string name="ipc_time_capsule_objects">%s objects during this period</string>
@@ -1299,6 +1330,7 @@ app to unlink the  %s  skill.</string>
   <string name="ipc_tips_sound_open_success">Sound enabled</string>
   <string name="ipc_tips_speaker_closed_success">Speaker turned off</string>
   <string name="ipc_tips_speaker_open_success">Speaker turned on successfully</string>
+  <string name="ipc_toast_hungup">Hung up</string>
   <string name="ipc_toco_unsupport_dig_body">Sorry, Your device no longer supports the current app，check detail to get solution.</string>
   <string name="ipc_toco_unsupport_dig_detail">Check Details</string>
   <string name="ipc_toco_unsupport_dig_title">Unsupported Device</string>
@@ -1482,7 +1514,7 @@ app to unlink the  %s  skill.</string>
   <string name="more_connect_type">View more ways to link</string>
   <string name="more_service_order_list">My Order</string>
   <string name="more_service_recommand_service">Featured</string>
-  <string name="more_service_thirdparty_service">Third-party Access Service</string>
+  <string name="more_service_thirdparty_service">Third-Party Voice Services</string>
   <string name="my_profile_choose_pic_from_camera">Take Photo</string>
   <string name="my_profile_choose_pic_from_local">Select from Album</string>
   <string name="my_smart_home">My Devices</string>
@@ -1569,9 +1601,14 @@ app to unlink the  %s  skill.</string>
   <string name="ota_still_update">Continue to upgrade</string>
   <string name="ota_success">Updated</string>
   <string name="ota_update_begin">Start update</string>
+  <string name="ota_update_confirm_cancel_content">After canceling, click Update to proceed.</string>
+  <string name="ota_update_confirm_cancel_title">Are you sure to cancel the update?</string>
+  <string name="ota_update_inactivite_warning_txt">This low-power device will be updated after wake-up.</string>
   <string name="ota_update_nb_upgrading_remind">Ensure that the device is fully charged during the firmware download.</string>
   <string name="ota_update_nb_wait_remind">Waking up the device. It may take some time. You can do other operations while waiting.</string>
   <string name="ota_update_remind">1. Keep the power of the device connected during the update process. \ n2. The device will not be available during the update process, please be patient.</string>
+  <string name="ota_update_waiting_for_upgrading">Waiting for updating to</string>
+  <string name="ota_update_waiting_wake_up">Wait for the device to wake up...</string>
   <string name="ota_update_warning">Notes</string>
   <string name="ota_update_warning_text_can_control">The upgrade may take a long time. Make sure that the device is fully charged.</string>
   <string name="ota_update_warning_txt">This update may take a long time. Make sure that the device is fully charged. The device will be unavailable during the update.</string>
@@ -1671,7 +1708,7 @@ app to unlink the  %s  skill.</string>
   <string name="privacy">Privacy Policy</string>
   <string name="privacy_doc">#</string>
   <string name="privacy_doc_name">#</string>
-  <string name="privacy_url">https://images.tuyacn.com/app/pAs/TuyaSmart1202en.html</string>
+  <string name="privacy_url">https://images.tuyacn.com/app/pAs/en-TuyaSmart1228.html</string>
   <string name="private_and_user_agreement">Service Agreement and Privacy Policy</string>
   <string name="problemSubmit_content_placeholder">Detail the problem you want to report and note the path of the problem subject in the app. Clear and complete information can help us quickly locate and solve the problem.</string>
   <string name="productProposal_content_placeholder">Replace \"Detail\" with \"Describe\"</string>
@@ -1686,6 +1723,7 @@ app to unlink the  %s  skill.</string>
   <string name="push_channel_doorbell">Doorbell Notification</string>
   <string name="push_channel_longbell">Long Bell Notification</string>
   <string name="push_channel_shortbell">Short Bell Notification</string>
+  <string name="push_channel_warnbell">Alert Notification</string>
   <string name="push_permission_notify">To ensure the receipt of notifications, allow notifications through phone settings.</string>
   <string name="questionTips">You may encounter the following problems:</string>
   <string name="rate_us">Rate Us</string>
@@ -1999,6 +2037,10 @@ Continue?</string>
   <string name="tx_status_slow">Slow flashing (3 seconds / 1 time)</string>
   <string name="tx_status_title">Select indicator status</string>
   <string name="ty_about_tuyasmart">About Tuya Smart</string>
+  <string name="ty_account_bind">Linked</string>
+  <string name="ty_account_gotobind">Link Now</string>
+  <string name="ty_account_line">LINE</string>
+  <string name="ty_activator">Activate</string>
   <string name="ty_activator_activate_stop_dialog_content_muti_device">Related %s devices: %d</string>
   <string name="ty_activator_activate_stop_dialog_content_one_device">Related device: %s</string>
   <string name="ty_activator_activate_stop_dialog_title">Other related devices will be affected if \"%s\"is stopped.</string>
@@ -2012,12 +2054,15 @@ Continue?</string>
   <string name="ty_activator_bleLimit_share">Please allow access to Bluetooth</string>
   <string name="ty_activator_bleLimit_shareText">Bluetooth</string>
   <string name="ty_activator_bleLimit_system_open">Turn On Bluetooth</string>
+  <string name="ty_activator_cancel">Cancel</string>
   <string name="ty_activator_changeType">Switch Pairing Mode</string>
   <string name="ty_activator_comfirm_wifi">Wi-Fi information is required. Are you sure to add?</string>
+  <string name="ty_activator_complete">Done</string>
   <string name="ty_activator_config_cable_gateway">Configuring wired gateway</string>
   <string name="ty_activator_config_wifi_gateway">Configuring wireless gateway</string>
   <string name="ty_activator_connect_bluetooth">Bluetooth Pairing</string>
   <string name="ty_activator_connect_bluetooth_text">Networking through Bluetooth</string>
+  <string name="ty_activator_continue">Continue</string>
   <string name="ty_activator_dev_img">Icon</string>
   <string name="ty_activator_dev_name">Name</string>
   <string name="ty_activator_dev_off_line_warn">Device Offline Notification</string>
@@ -2059,6 +2104,7 @@ Continue?</string>
   <string name="ty_activator_locationAlert_tips">Enable the location permission to get the Wi-Fi name automatically.</string>
   <string name="ty_activator_more_question">More device-pairing FAQs</string>
   <string name="ty_activator_noSearch">No devices found</string>
+  <string name="ty_activator_not_only_zigbeesub_dialog_tip">The gateway must be configured to add some devices. You can add other devices first.</string>
   <string name="ty_activator_off_line_warn">Offline Notification</string>
   <string name="ty_activator_openLimit_ble">Enable Bluetooth</string>
   <string name="ty_activator_openLimit_details">Enable Bluetooth to scan nearby Bluetooth devices. If you are unsure of the device type, please enable all these permissions</string>
@@ -2090,8 +2136,8 @@ Continue?</string>
   <string name="ty_activator_reset_guide_title2">2. Unpair and reconnect the device</string>
   <string name="ty_activator_reset_guide_title3">3. If you still have any questions</string>
   <string name="ty_activator_scan_device_timeout_content">Please ensure Bluetooth device is nearby and ready to be connected.</string>
-  <string name="ty_activator_scan_device_tip_noble">Wi-Fi/Zigbee /Wired devices can be found when the access is enabled.</string>
-  <string name="ty_activator_scan_device_tip_title">Automatically discover Bluetooth/Wi-Fi/Zigbee/wired devices when the corresponding permission is turned on</string>
+  <string name="ty_activator_scan_device_tip_noble">Searching device nearby</string>
+  <string name="ty_activator_scan_device_tip_title">Searching device nearby</string>
   <string name="ty_activator_scaned_devices">Add Device</string>
   <string name="ty_activator_search">Start scanning</string>
   <string name="ty_activator_search_bleDevice">Scan Bluetooth devices</string>
@@ -2102,9 +2148,16 @@ Continue?</string>
   <string name="ty_activator_select_gateway">Select gateway</string>
   <string name="ty_activator_selected">Selected: %s</string>
   <string name="ty_activator_status_change_failure">Failed to change settings. Check the network.</string>
+  <string name="ty_activator_stop">Terminate</string>
+  <string name="ty_activator_stop_tip">If you terminate the process, the device adding will be stopped. Continue?</string>
   <string name="ty_activator_sub_failure1">Check whether the gateway is online</string>
   <string name="ty_activator_sub_failure2">Check whether the gateway, device, mobile phone are close to the router</string>
   <string name="ty_activator_tryAgain">Retry</string>
+  <string name="ty_activator_wifi_pwd_error_dialog_tip">Incorrect password. Please try again.</string>
+  <string name="ty_activator_wifichannel_activation">%1$s devices in total and %2$s activated</string>
+  <string name="ty_activator_wifichannel_description">%s device(s) to be activated. Enable remote control and device sharing after activation.</string>
+  <string name="ty_activator_wifichannel_title">Device Activation</string>
+  <string name="ty_activator_zigbeesub_limit_tip">%s add this type of equipment to the upper limit</string>
   <string name="ty_add_auto_button">Add \"Automation\"</string>
   <string name="ty_add_automatic_desc">Execute automatically according to conditions such as weather, device status, and time.</string>
   <string name="ty_add_blue_device_permission_title">Before adding a Bluetooth device, enable the following permissions.</string>
@@ -2180,7 +2233,7 @@ Continue?</string>
   <string name="ty_ap_error_description">Connection error, please refer to Help and try it again</string>
   <string name="ty_ap_error_title">Device connection error</string>
   <string name="ty_app_siganature_illegal">App installation is not safe, Please download the app via a proper method.</string>
-  <string name="ty_app_upgrade_tips">The current version does not support the device.\n Please upgrate the App.</string>
+  <string name="ty_app_upgrade_tips">The current version does not support this device.\nGo to the app market to update the app.</string>
   <string name="ty_app_watch_cancel_tips">Do you want to save the settings?</string>
   <string name="ty_app_watch_device_empty">No devices</string>
   <string name="ty_app_watch_device_enabled">Device</string>
@@ -2195,6 +2248,7 @@ Continue?</string>
   <string name="ty_app_watch_title">Watch</string>
   <string name="ty_app_watch_url_instructions">Apple Watch Operation Instructions</string>
   <string name="ty_arrive_or_leave">Arrive At/Leave</string>
+  <string name="ty_auth_management">Authorization Management</string>
   <string name="ty_authorize_cancel">Cancel authorization</string>
   <string name="ty_authorize_failed">Fail to authorize</string>
   <string name="ty_auto_empty_tip">Execute automatically according to conditions such as the weather, device status, and time.</string>
@@ -2213,6 +2267,12 @@ Continue?</string>
   <string name="ty_ble_device">Bluetooth Device</string>
   <string name="ty_ble_permission_tip">Location access is disabled. Failed to connect to the Bluetooth device.</string>
   <string name="ty_ble_scan_mesh">Bluetooth Mesh Device x</string>
+  <string name="ty_ble_unlock_not_connect">Could not connect to the bluetooth device.</string>
+  <string name="ty_ble_unlock_publish_dps_not_response">Bluetooth device has no response.</string>
+  <string name="ty_ble_unlock_rssi_mismatch">Bluetooth signal is poor. Please increase the sensitivity.</string>
+  <string name="ty_ble_unlock_timeout">Bluetooth device is not found.</string>
+  <string name="ty_bluetooth_activate_waiting">Waiting for Bluetooth activation</string>
+  <string name="ty_bluetooth_activating">Activating Bluetooth</string>
   <string name="ty_bluetooth_device">Single-node Bluetooth Device</string>
   <string name="ty_bluetooth_mesh_device">Bluetooth Mesh Device</string>
   <string name="ty_cache_cleaner">Clear Cache</string>
@@ -2224,9 +2284,11 @@ Continue?</string>
   <string name="ty_change_gesture">Change Pattern Lock</string>
   <string name="ty_change_login_keyword">Change Login Password</string>
   <string name="ty_choose_action">Select Task</string>
+  <string name="ty_choose_device_tip">Select devices</string>
   <string name="ty_choose_exe_secene">Select \"Tap-To-Run\"</string>
   <string name="ty_choose_sub_device_with_gateway">Select a sub-device</string>
   <string name="ty_choose_touch_smart">Select \"Automation\"Scene</string>
+  <string name="ty_cloud_app">Cloud Development Project</string>
   <string name="ty_config">Configure</string>
   <string name="ty_config_bluetooth_dev">Bluetooth device</string>
   <string name="ty_config_complete_info">Edit now</string>
@@ -2270,6 +2332,12 @@ Continue?</string>
   <string name="ty_current_bind_phone_tip">Your currently bound account is:</string>
   <string name="ty_custom_member_contact_manager">Contact the administrator to enable the permission on the Home Settings page.</string>
   <string name="ty_custom_member_not_operate">Custom members do not have the permission.</string>
+  <string name="ty_dark_mode">Dark Mode</string>
+  <string name="ty_dark_mode_description">When enabled, the app will switch the dark mode on or off to match your system settings.</string>
+  <string name="ty_dark_mode_follow_system">System</string>
+  <string name="ty_dark_mode_off">Off</string>
+  <string name="ty_dark_mode_on">On</string>
+  <string name="ty_dark_mode_sure_continue">You must restart the app for this change to take effect. Continue?</string>
   <string name="ty_debug_dns">DNS Parse Time</string>
   <string name="ty_debug_language_fetch_localize">Get new words</string>
   <string name="ty_debug_language_fetch_subtitle">You can preview at most 200 edited words at once</string>
@@ -2316,7 +2384,12 @@ Continue?</string>
   <string name="ty_device_bind_set_multi_control">Multi-control group has been configured</string>
   <string name="ty_device_bind_status_disable">Disabled</string>
   <string name="ty_device_bind_status_enable">Enabled</string>
+  <string name="ty_device_channels_of_communicationl">Channel</string>
   <string name="ty_device_connect">Connect Device</string>
+  <string name="ty_device_connect_cloud_activation">Cloud Connection</string>
+  <string name="ty_device_connect_cloud_activation_failed">Failed</string>
+  <string name="ty_device_connect_cloud_activation_success">Successful</string>
+  <string name="ty_device_connect_cloud_activation_tip">Enable remote control and device sharing after cloud activation</string>
   <string name="ty_device_crash_tips">Please try again later</string>
   <string name="ty_device_detail_close">Off</string>
   <string name="ty_device_detail_close_sub_device_tip">The added remote control will not be displayed on Home</string>
@@ -2348,6 +2421,7 @@ Continue?</string>
   <string name="ty_device_select_icon_save">Save</string>
   <string name="ty_device_shortcut_create_dialog_tip">If failed to add, please go to your system settings to turn on the permission to add %s shortcut to your home screen</string>
   <string name="ty_device_sort_delete_max">Select up to nine devices</string>
+  <string name="ty_device_ssid_empty">Enter Wi-Fi name</string>
   <string name="ty_device_sub_device_migrate">Move the sub-device to another gateway</string>
   <string name="ty_device_to_add">Add</string>
   <string name="ty_device_to_add_retry">Retry</string>
@@ -2378,6 +2452,8 @@ Continue?</string>
   <string name="ty_ej_device_switch_off_tips">has been turned off!</string>
   <string name="ty_ej_device_switch_on_tips">has been turned on, please enjoy your smart life!</string>
   <string name="ty_encourage_error_info">An enterprise package does not support this function.</string>
+  <string name="ty_energy_guide_tip">View consumption data of electricity, water, and gas.</string>
+  <string name="ty_energy_manager">Home Energy Monitor</string>
   <string name="ty_enter_keyword_tip">6 to 20 characters, including letters and digits</string>
   <string name="ty_enter_scene_name">Enter the \"Tap-To-Run\" Scene name</string>
   <string name="ty_equipment_information">Device Information</string>
@@ -2405,6 +2481,9 @@ Continue?</string>
   <string name="ty_ez_status_share">Share with Family</string>
   <string name="ty_ez_status_success">Added successfully</string>
   <string name="ty_ez_wifi_title">Enter Wi-Fi Password</string>
+  <string name="ty_family_complete_family_tip">Please complete your home information before inviting new members.</string>
+  <string name="ty_family_go_complete">Go</string>
+  <string name="ty_family_guide_skip_tip">Create a home in Home Management.</string>
   <string name="ty_family_manager">Home Management</string>
   <string name="ty_fdq_call_phone">%s is calling</string>
   <string name="ty_firmware_auto_upgrade_switch_desc">The device will be automatically updated. but some key device features still need to be confirmed to update.</string>
@@ -2451,9 +2530,16 @@ Continue?</string>
   <string name="ty_gprs_enter">Enter device ID Manually</string>
   <string name="ty_gprs_locate">Location access is disabled</string>
   <string name="ty_gprs_scanning">Scan Device QR Code</string>
+  <string name="ty_has_unbind">Unlinked</string>
+  <string name="ty_health_center">Health Center</string>
   <string name="ty_homeKit_info">HomeKit Information</string>
+  <string name="ty_home_Intelligent_recommendation">Recommended</string>
+  <string name="ty_home_activator_numtip">%s device(s) to be activated.</string>
+  <string name="ty_home_activator_numtip_description">Enable remote control and device sharing after cloud activation</string>
+  <string name="ty_home_activator_success">Successful</string>
   <string name="ty_home_default_home_name">My Home ..</string>
   <string name="ty_home_device_over_limit">Device limit reached</string>
+  <string name="ty_home_dont_show_again">Do not show again</string>
   <string name="ty_home_empty_more">Learn more</string>
   <string name="ty_home_empty_tip">No devices</string>
   <string name="ty_home_nav_family">Home</string>
@@ -2478,10 +2564,20 @@ Continue?</string>
   <string name="ty_homekit_binded">Binded</string>
   <string name="ty_homekit_device">HomeKit Device</string>
   <string name="ty_homekit_device_binding">Binding “%s”</string>
+  <string name="ty_homekit_device_empty">No HomeKit device</string>
   <string name="ty_homekit_unbindable">Cannot bind</string>
   <string name="ty_homekit_unbindable_tips">Failed to connect to device. Please connect phone to the same Wi-Fi as device\'s and refesh the list to try again.</string>
   <string name="ty_iOS_app_share">Share iOS app downloading address</string>
   <string name="ty_iOS_share_url">https://itunes.apple.com/us/app/tuyasmart/id1034649547?mt=8</string>
+  <string name="ty_iap_can_not_pay">Purchase is not allowed.</string>
+  <string name="ty_iap_is_gray_test">The Beta version does not support Apple Pay.</string>
+  <string name="ty_iap_jailbroken">Purchase is not allowed on a jailbroken device.</string>
+  <string name="ty_iap_no_products">No item is available for purchase.</string>
+  <string name="ty_iap_pay_canceled">Cancel Payment</string>
+  <string name="ty_iap_pay_failed">Payment failed.</string>
+  <string name="ty_iap_pay_has_other_payment">Processing the last transaction. Please try again later.</string>
+  <string name="ty_iap_pay_success">Payment succeeded.</string>
+  <string name="ty_iap_waiting">Please wait</string>
   <string name="ty_igonre_tip">Don\'t show this message again</string>
   <string name="ty_illegal_dp_data">Illegal DP data</string>
   <string name="ty_input_email">Email Address</string>
@@ -2495,6 +2591,7 @@ Continue?</string>
   <string name="ty_keep_alive_notification_content">Click to view equipment</string>
   <string name="ty_keep_alive_notification_title">Device is running</string>
   <string name="ty_keep_power_working">Please do not power off</string>
+  <string name="ty_light_mode">Normal Mode</string>
   <string name="ty_lightskin_edit_info">Edit</string>
   <string name="ty_load_error">Failed to load</string>
   <string name="ty_loading">Loading...</string>
@@ -2515,6 +2612,7 @@ Continue?</string>
   <string name="ty_login_register">Register</string>
   <string name="ty_login_register_nostate">Select your account\'s country or region</string>
   <string name="ty_login_sms">Login with SMS</string>
+  <string name="ty_login_sure">Are you sure to sign out?</string>
   <string name="ty_login_thirdparty">Please add your new mobile number in Phone Notification Settings. Otherwise changing your mobile number will stop your Message Notification service. Continue to change?</string>
   <string name="ty_login_thirdparty_call">You have subscribed to the Phone and Message Notification service, please add your new mobile number to Phone Notification Settings.</string>
   <string name="ty_login_thirdparty_sms">Changing your mobile number will stop your Message Notification service. Continue to change?</string>
@@ -2524,6 +2622,14 @@ Continue?</string>
   <string name="ty_login_wechat">WeChat</string>
   <string name="ty_login_youremail">Your email</string>
   <string name="ty_login_yourmobile">Your mobile number</string>
+  <string name="ty_logoff_conform">Delete</string>
+  <string name="ty_logoff_continue">Continue</string>
+  <string name="ty_logoff_forever">All the user data under this account will be permanently wiped.</string>
+  <string name="ty_logoff_getcode">Click\"Get Verification Code\" and it will be sent to your %1$s： %2$s</string>
+  <string name="ty_logoff_password">Please enter password of the bound account to complete.</string>
+  <string name="ty_logoff_query_sure">Are you sure to delete account?</string>
+  <string name="ty_logoff_setpassword_skip">Skip</string>
+  <string name="ty_logoff_title">Delete Account</string>
   <string name="ty_logout_loading">Exiting safely, please wait...</string>
   <string name="ty_mac_addr">Mac</string>
   <string name="ty_make_call">Call</string>
@@ -2588,6 +2694,7 @@ Continue?</string>
   <string name="ty_message_had_read_all">Mark all as read</string>
   <string name="ty_message_info_selected_too_many">Please select no more than %d</string>
   <string name="ty_message_item_selected">%d selected</string>
+  <string name="ty_message_limit">Restricted sending of SMS verification code for user bound mobile phone number</string>
   <string name="ty_message_more">Notification Settings</string>
   <string name="ty_message_more_normal_push">System Notification</string>
   <string name="ty_message_more_other_push">Marketing Message</string>
@@ -2677,7 +2784,7 @@ Continue?</string>
   <string name="ty_net_pool_upload_tip">This function will transfer your network information through a server. Click Agree to continue.</string>
   <string name="ty_net_pool_wired_net">Wired connection</string>
   <string name="ty_network_add_explanation">but not the hotspot for device connection.</string>
-  <string name="ty_network_certificate_dialog_tip">Network error. Please check the credentail setting in your system.</string>
+  <string name="ty_network_certificate_dialog_tip">Network error. Please check the credential setting in your system.</string>
   <string name="ty_network_certificate_guide_android_step1">1. Please check the time settings in your phone to make sure they match your local time and time zone.</string>
   <string name="ty_network_certificate_guide_android_step2">2. Please check if you have turned on the credential \"GoDaddy.com，Inc. Go Daddy Root Certificate Authority-G2\" via Settings - Advanced - Encryption &amp; credentials - Trusted credentials.</string>
   <string name="ty_network_error">Network error, please try it again</string>
@@ -2712,9 +2819,11 @@ Continue?</string>
   <string name="ty_panel_device_tz">Time Zone</string>
   <string name="ty_panel_group_confirm_remove">Are you sure you want to remove the group?</string>
   <string name="ty_panel_share_group">Share Group</string>
+  <string name="ty_password_bind">You can log in your account via bound %s or password.</string>
   <string name="ty_password_regular1">Use 6-20 characters with a mix of letters and numbers</string>
   <string name="ty_password_regular2">Use 8-20 characters with a mix of uppercase letters, lowercase letters and numbers</string>
   <string name="ty_password_regular3">Use 8-20 characters with a mix of uppercase letters, lowercase letters, numbers, and special characters</string>
+  <string name="ty_password_skip">For setting up password, please go to Account and Security &gt; Change Login Password.</string>
   <string name="ty_permission_tip_contact">Failed to access phone contacts. Allow %s to access your phone contacts in Settings.</string>
   <string name="ty_permission_tip_location">- Get permission to access the phone\'s location</string>
   <string name="ty_permission_tip_phone_state">- Get permission to access phone messages.</string>
@@ -2742,6 +2851,7 @@ Continue?</string>
   <string name="ty_refresh_footer_pulling">Release to refresh</string>
   <string name="ty_refresh_footer_refreshing">Loading...</string>
   <string name="ty_remove">Remove</string>
+  <string name="ty_remove_bind">Unlink</string>
   <string name="ty_remove_binding">Disconnect</string>
   <string name="ty_remove_binding_and_clean_data">Disconnect and wipe data</string>
   <string name="ty_remove_out_family">You have been removed from home%s and no longer have access  to this home\'s devices and smart scenarios.</string>
@@ -2750,6 +2860,13 @@ Continue?</string>
   <string name="ty_report_pairing_issue">Report Networking Issue</string>
   <string name="ty_request_fail_to_open">Failed to obtain location access. Please allow location access in Settings.</string>
   <string name="ty_request_location_permission_fail">Failed to obtain location access, please allow location services</string>
+  <string name="ty_review_device_control_success_title">Device control was successful.</string>
+  <string name="ty_review_item_cancel">Later</string>
+  <string name="ty_review_item_comment">Thumbs Up</string>
+  <string name="ty_review_item_feedback">Thumbs Down</string>
+  <string name="ty_review_operate_success_hint">How was your experience with our app?</string>
+  <string name="ty_review_scene_add_success_title">Added a scene successfully.</string>
+  <string name="ty_review_value_add_service_success_title">Your purchase was successful.</string>
   <string name="ty_room_none_permission_tip">Contact the administrator to enable the permission in Home Settings &gt; Home Members.</string>
   <string name="ty_room_none_permission_title">Common members do not have the operation permission.</string>
   <string name="ty_save_room_suc">Saved</string>
@@ -2882,6 +2999,7 @@ Continue?</string>
   <string name="ty_testflight_content">We invite you to participate in the app beta test. You will have the opportunity to download the beta version of the app and experience new features that have not yet been officially released.</string>
   <string name="ty_testflight_join">Join</string>
   <string name="ty_thanks">Thank you for your support</string>
+  <string name="ty_third_account_bind">Link Third-Party Accounts</string>
   <string name="ty_thirdparty_no_device">No supported devices</string>
   <string name="ty_thirdparty_no_device_tip">Add a supported device or contact the device supplier</string>
   <string name="ty_timer_success_notification">Notification</string>
@@ -2891,6 +3009,16 @@ Continue?</string>
   <string name="ty_touch_start">Start</string>
   <string name="ty_touch_stop">Stop</string>
   <string name="ty_tp_timer_zone_remian">Using GMT %s time zone time setting</string>
+  <string name="ty_unbind_alert_message">After unlinking, the cloud development project administrator cannot manage or control the devices under your account.</string>
+  <string name="ty_unbind_alert_title">Are you sure to unlink?</string>
+  <string name="ty_unbind_confirm">Unlink</string>
+  <string name="ty_unbind_limit">You have registered with a WeChat account, and cannot be unlinked now.</string>
+  <string name="ty_unbind_line_limit">You have registered with a LINE account, so it cannot be unlinked now.</string>
+  <string name="ty_unbind_line_sure">Are you sure to unlink LINE?</string>
+  <string name="ty_unbind_line_sure_message">If your LINE account is unlinked, you cannot use it to log in %s.</string>
+  <string name="ty_unbind_success">Unlinked successfully.</string>
+  <string name="ty_unbind_sure">Are you sure to unlink WeChat?</string>
+  <string name="ty_unbind_sure_message">If the WeChat account is unlinked, you cannot use it to log in: %s</string>
   <string name="ty_update_family_info">Home information has been updated</string>
   <string name="ty_update_name">Edit Name</string>
   <string name="ty_update_scene">Edit \"Tap-To-Run\"</string>
@@ -2954,6 +3082,7 @@ Continue?</string>
   <string name="user_complete_info">Edit account information</string>
   <string name="user_exists">Account already exists</string>
   <string name="user_exit_experience">Exit</string>
+  <string name="user_logining">Loading...</string>
   <string name="user_share_detail">Sharing Details</string>
   <string name="user_share_device_list">Shared Devices</string>
   <string name="user_share_oren">Share with</string>

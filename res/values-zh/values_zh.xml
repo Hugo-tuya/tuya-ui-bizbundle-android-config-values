@@ -1,8 +1,0 @@
-<?xml version="1.0"  encoding="utf-8"?>
-<resources >
-    <string name="custom_manufactory_intro_link">https://www.tuya.com</string>
-    <string name="company_name">©2021 Tuya Inc. All Rights Reserved</string>
-    <string name="ap_config_tips">长按电器重置按钮将Wi-Fi指示灯调节到慢速闪烁状态</string>
-    <string name="app_name">涂鸦智能</string>
-    <string name="ez_config_tips">长按电器重置按钮将Wi-Fi指示灯调节到快速闪烁状态</string>
-</resources>

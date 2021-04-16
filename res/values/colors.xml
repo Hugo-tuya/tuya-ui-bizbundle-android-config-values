@@ -1,15 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <dimen name="ty_theme_dimen_c1">32dp</dimen>
-    <dimen name="ty_theme_dimen_c1_1">24dp</dimen>
-    <dimen name="ty_theme_dimen_c1_2">20dp</dimen>
-    <dimen name="ty_theme_dimen_c1_3">15dp</dimen>
-    <dimen name="ty_theme_dimen_c2">16dp</dimen>
-    <dimen name="ty_theme_dimen_c3_1">16dp</dimen>
-    <dimen name="ty_theme_dimen_c3_2">12dp</dimen>
-    <dimen name="ty_theme_dimen_c3_3">8dp</dimen>
-    <dimen name="ty_theme_dimen_c3_4">4dp</dimen>
-
+    <!--
+Automatically generated files, it should not be modified manually!!!
+-->
     <color name="ty_theme_color_b1">#fff8f8f8</color>
     <color name="ty_theme_color_b1_2">#ffdfdfdf</color>
     <color name="ty_theme_color_b2">#ffffffff</color>
@@ -22,6 +15,9 @@
     <color name="ty_theme_color_b5_2">#ffe5e5e5</color>
     <color name="ty_theme_color_b6">#ffffffff</color>
     <color name="ty_theme_color_b6_2">#ffe5e5e5</color>
+    <color name="ty_theme_color_m1">#ffff5a28</color>
+    <color name="ty_theme_color_m1_1">#33ff5a28</color>
+    <color name="ty_theme_color_m1_2">#ffff6b3e</color>
     <color name="ty_theme_color_m2">#ffff4444</color>
     <color name="ty_theme_color_m2_1">#33ff4444</color>
     <color name="ty_theme_color_m2_2">#ffff5757</color>
@@ -40,6 +36,7 @@
     <color name="ty_theme_color_b4_alpha_5">#0dffffff</color>
     <color name="ty_theme_color_b5_alpha_5">#0dffffff</color>
     <color name="ty_theme_color_b6_alpha_5">#0dffffff</color>
+    <color name="ty_theme_color_m1_alpha_5">#0dff5a28</color>
     <color name="ty_theme_color_m2_alpha_5">#0dff4444</color>
     <color name="ty_theme_color_m3_alpha_5">#0d00cc99</color>
     <color name="ty_theme_color_m4_alpha_5">#0d1989fa</color>
@@ -50,6 +47,7 @@
     <color name="ty_theme_color_b4_alpha_10">#1affffff</color>
     <color name="ty_theme_color_b5_alpha_10">#1affffff</color>
     <color name="ty_theme_color_b6_alpha_10">#1affffff</color>
+    <color name="ty_theme_color_m1_alpha_10">#1aff5a28</color>
     <color name="ty_theme_color_m2_alpha_10">#1aff4444</color>
     <color name="ty_theme_color_m3_alpha_10">#1a00cc99</color>
     <color name="ty_theme_color_m4_alpha_10">#1a1989fa</color>
@@ -60,6 +58,7 @@
     <color name="ty_theme_color_b4_alpha_15">#26ffffff</color>
     <color name="ty_theme_color_b5_alpha_15">#26ffffff</color>
     <color name="ty_theme_color_b6_alpha_15">#26ffffff</color>
+    <color name="ty_theme_color_m1_alpha_15">#26ff5a28</color>
     <color name="ty_theme_color_m2_alpha_15">#26ff4444</color>
     <color name="ty_theme_color_m3_alpha_15">#2600cc99</color>
     <color name="ty_theme_color_m4_alpha_15">#261989fa</color>
@@ -70,6 +69,7 @@
     <color name="ty_theme_color_b4_alpha_20">#33ffffff</color>
     <color name="ty_theme_color_b5_alpha_20">#33ffffff</color>
     <color name="ty_theme_color_b6_alpha_20">#33ffffff</color>
+    <color name="ty_theme_color_m1_alpha_20">#33ff5a28</color>
     <color name="ty_theme_color_m2_alpha_20">#33ff4444</color>
     <color name="ty_theme_color_m3_alpha_20">#3300cc99</color>
     <color name="ty_theme_color_m4_alpha_20">#331989fa</color>
@@ -80,6 +80,7 @@
     <color name="ty_theme_color_b4_alpha_25">#40ffffff</color>
     <color name="ty_theme_color_b5_alpha_25">#40ffffff</color>
     <color name="ty_theme_color_b6_alpha_25">#40ffffff</color>
+    <color name="ty_theme_color_m1_alpha_25">#40ff5a28</color>
     <color name="ty_theme_color_m2_alpha_25">#40ff4444</color>
     <color name="ty_theme_color_m3_alpha_25">#4000cc99</color>
     <color name="ty_theme_color_m4_alpha_25">#401989fa</color>
@@ -90,6 +91,7 @@
     <color name="ty_theme_color_b4_alpha_30">#4dffffff</color>
     <color name="ty_theme_color_b5_alpha_30">#4dffffff</color>
     <color name="ty_theme_color_b6_alpha_30">#4dffffff</color>
+    <color name="ty_theme_color_m1_alpha_30">#4dff5a28</color>
     <color name="ty_theme_color_m2_alpha_30">#4dff4444</color>
     <color name="ty_theme_color_m3_alpha_30">#4d00cc99</color>
     <color name="ty_theme_color_m4_alpha_30">#4d1989fa</color>
@@ -100,6 +102,7 @@
     <color name="ty_theme_color_b4_alpha_35">#59ffffff</color>
     <color name="ty_theme_color_b5_alpha_35">#59ffffff</color>
     <color name="ty_theme_color_b6_alpha_35">#59ffffff</color>
+    <color name="ty_theme_color_m1_alpha_35">#59ff5a28</color>
     <color name="ty_theme_color_m2_alpha_35">#59ff4444</color>
     <color name="ty_theme_color_m3_alpha_35">#5900cc99</color>
     <color name="ty_theme_color_m4_alpha_35">#591989fa</color>
@@ -110,6 +113,7 @@
     <color name="ty_theme_color_b4_alpha_40">#66ffffff</color>
     <color name="ty_theme_color_b5_alpha_40">#66ffffff</color>
     <color name="ty_theme_color_b6_alpha_40">#66ffffff</color>
+    <color name="ty_theme_color_m1_alpha_40">#66ff5a28</color>
     <color name="ty_theme_color_m2_alpha_40">#66ff4444</color>
     <color name="ty_theme_color_m3_alpha_40">#6600cc99</color>
     <color name="ty_theme_color_m4_alpha_40">#661989fa</color>
@@ -120,6 +124,7 @@
     <color name="ty_theme_color_b4_alpha_45">#73ffffff</color>
     <color name="ty_theme_color_b5_alpha_45">#73ffffff</color>
     <color name="ty_theme_color_b6_alpha_45">#73ffffff</color>
+    <color name="ty_theme_color_m1_alpha_45">#73ff5a28</color>
     <color name="ty_theme_color_m2_alpha_45">#73ff4444</color>
     <color name="ty_theme_color_m3_alpha_45">#7300cc99</color>
     <color name="ty_theme_color_m4_alpha_45">#731989fa</color>
@@ -130,6 +135,7 @@
     <color name="ty_theme_color_b4_alpha_50">#80ffffff</color>
     <color name="ty_theme_color_b5_alpha_50">#80ffffff</color>
     <color name="ty_theme_color_b6_alpha_50">#80ffffff</color>
+    <color name="ty_theme_color_m1_alpha_50">#80ff5a28</color>
     <color name="ty_theme_color_m2_alpha_50">#80ff4444</color>
     <color name="ty_theme_color_m3_alpha_50">#8000cc99</color>
     <color name="ty_theme_color_m4_alpha_50">#801989fa</color>
@@ -140,6 +146,7 @@
     <color name="ty_theme_color_b4_alpha_55">#8cffffff</color>
     <color name="ty_theme_color_b5_alpha_55">#8cffffff</color>
     <color name="ty_theme_color_b6_alpha_55">#8cffffff</color>
+    <color name="ty_theme_color_m1_alpha_55">#8cff5a28</color>
     <color name="ty_theme_color_m2_alpha_55">#8cff4444</color>
     <color name="ty_theme_color_m3_alpha_55">#8c00cc99</color>
     <color name="ty_theme_color_m4_alpha_55">#8c1989fa</color>
@@ -150,6 +157,7 @@
     <color name="ty_theme_color_b4_alpha_60">#99ffffff</color>
     <color name="ty_theme_color_b5_alpha_60">#99ffffff</color>
     <color name="ty_theme_color_b6_alpha_60">#99ffffff</color>
+    <color name="ty_theme_color_m1_alpha_60">#99ff5a28</color>
     <color name="ty_theme_color_m2_alpha_60">#99ff4444</color>
     <color name="ty_theme_color_m3_alpha_60">#9900cc99</color>
     <color name="ty_theme_color_m4_alpha_60">#991989fa</color>
@@ -160,6 +168,7 @@
     <color name="ty_theme_color_b4_alpha_65">#a6ffffff</color>
     <color name="ty_theme_color_b5_alpha_65">#a6ffffff</color>
     <color name="ty_theme_color_b6_alpha_65">#a6ffffff</color>
+    <color name="ty_theme_color_m1_alpha_65">#a6ff5a28</color>
     <color name="ty_theme_color_m2_alpha_65">#a6ff4444</color>
     <color name="ty_theme_color_m3_alpha_65">#a600cc99</color>
     <color name="ty_theme_color_m4_alpha_65">#a61989fa</color>
@@ -170,6 +179,7 @@
     <color name="ty_theme_color_b4_alpha_70">#b3ffffff</color>
     <color name="ty_theme_color_b5_alpha_70">#b3ffffff</color>
     <color name="ty_theme_color_b6_alpha_70">#b3ffffff</color>
+    <color name="ty_theme_color_m1_alpha_70">#b3ff5a28</color>
     <color name="ty_theme_color_m2_alpha_70">#b3ff4444</color>
     <color name="ty_theme_color_m3_alpha_70">#b300cc99</color>
     <color name="ty_theme_color_m4_alpha_70">#b31989fa</color>
@@ -180,6 +190,7 @@
     <color name="ty_theme_color_b4_alpha_75">#bfffffff</color>
     <color name="ty_theme_color_b5_alpha_75">#bfffffff</color>
     <color name="ty_theme_color_b6_alpha_75">#bfffffff</color>
+    <color name="ty_theme_color_m1_alpha_75">#bfff5a28</color>
     <color name="ty_theme_color_m2_alpha_75">#bfff4444</color>
     <color name="ty_theme_color_m3_alpha_75">#bf00cc99</color>
     <color name="ty_theme_color_m4_alpha_75">#bf1989fa</color>
@@ -190,6 +201,7 @@
     <color name="ty_theme_color_b4_alpha_80">#ccffffff</color>
     <color name="ty_theme_color_b5_alpha_80">#ccffffff</color>
     <color name="ty_theme_color_b6_alpha_80">#ccffffff</color>
+    <color name="ty_theme_color_m1_alpha_80">#ccff5a28</color>
     <color name="ty_theme_color_m2_alpha_80">#ccff4444</color>
     <color name="ty_theme_color_m3_alpha_80">#cc00cc99</color>
     <color name="ty_theme_color_m4_alpha_80">#cc1989fa</color>
@@ -200,6 +212,7 @@
     <color name="ty_theme_color_b4_alpha_85">#d9ffffff</color>
     <color name="ty_theme_color_b5_alpha_85">#d9ffffff</color>
     <color name="ty_theme_color_b6_alpha_85">#d9ffffff</color>
+    <color name="ty_theme_color_m1_alpha_85">#d9ff5a28</color>
     <color name="ty_theme_color_m2_alpha_85">#d9ff4444</color>
     <color name="ty_theme_color_m3_alpha_85">#d900cc99</color>
     <color name="ty_theme_color_m4_alpha_85">#d91989fa</color>
@@ -210,6 +223,7 @@
     <color name="ty_theme_color_b4_alpha_90">#e6ffffff</color>
     <color name="ty_theme_color_b5_alpha_90">#e6ffffff</color>
     <color name="ty_theme_color_b6_alpha_90">#e6ffffff</color>
+    <color name="ty_theme_color_m1_alpha_90">#e6ff5a28</color>
     <color name="ty_theme_color_m2_alpha_90">#e6ff4444</color>
     <color name="ty_theme_color_m3_alpha_90">#e600cc99</color>
     <color name="ty_theme_color_m4_alpha_90">#e61989fa</color>
@@ -220,6 +234,7 @@
     <color name="ty_theme_color_b4_alpha_95">#f2ffffff</color>
     <color name="ty_theme_color_b5_alpha_95">#f2ffffff</color>
     <color name="ty_theme_color_b6_alpha_95">#f2ffffff</color>
+    <color name="ty_theme_color_m1_alpha_95">#f2ff5a28</color>
     <color name="ty_theme_color_m2_alpha_95">#f2ff4444</color>
     <color name="ty_theme_color_m3_alpha_95">#f200cc99</color>
     <color name="ty_theme_color_m4_alpha_95">#f21989fa</color>
@@ -248,9 +263,9 @@
     <color name="ty_theme_color_m4_n1">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n1">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n1">#ffffffff</color>
-    <color name="ty_theme_color_m5_n1">#e6ffffff</color>
-    <color name="ty_theme_color_m5_1_n1">#e6ffffff</color>
-    <color name="ty_theme_color_m5_2_n1">#e6ffffff</color>
+    <color name="ty_theme_color_m5_n1">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n1">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n1">#ffffffff</color>
     <color name="ty_theme_color_b1_n2">#b3000000</color>
     <color name="ty_theme_color_b1_2_n2">#b3000000</color>
     <color name="ty_theme_color_b2_n2">#b3000000</color>
@@ -275,9 +290,9 @@
     <color name="ty_theme_color_m4_n2">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n2">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n2">#ffffffff</color>
-    <color name="ty_theme_color_m5_n2">#b3ffffff</color>
-    <color name="ty_theme_color_m5_1_n2">#b3ffffff</color>
-    <color name="ty_theme_color_m5_2_n2">#b3ffffff</color>
+    <color name="ty_theme_color_m5_n2">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n2">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n2">#ffffffff</color>
     <color name="ty_theme_color_b1_n3">#80000000</color>
     <color name="ty_theme_color_b1_2_n3">#80000000</color>
     <color name="ty_theme_color_b2_n3">#80000000</color>
@@ -302,9 +317,9 @@
     <color name="ty_theme_color_m4_n3">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n3">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n3">#ffffffff</color>
-    <color name="ty_theme_color_m5_n3">#80ffffff</color>
-    <color name="ty_theme_color_m5_1_n3">#80ffffff</color>
-    <color name="ty_theme_color_m5_2_n3">#80ffffff</color>
+    <color name="ty_theme_color_m5_n3">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n3">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n3">#ffffffff</color>
     <color name="ty_theme_color_b1_n4">#4c000000</color>
     <color name="ty_theme_color_b1_2_n4">#4c000000</color>
     <color name="ty_theme_color_b2_n4">#4c000000</color>
@@ -329,9 +344,9 @@
     <color name="ty_theme_color_m4_n4">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n4">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n4">#ffffffff</color>
-    <color name="ty_theme_color_m5_n4">#4cffffff</color>
-    <color name="ty_theme_color_m5_1_n4">#4cffffff</color>
-    <color name="ty_theme_color_m5_2_n4">#4cffffff</color>
+    <color name="ty_theme_color_m5_n4">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n4">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n4">#ffffffff</color>
     <color name="ty_theme_color_b1_n5">#b3000000</color>
     <color name="ty_theme_color_b1_2_n5">#b3000000</color>
     <color name="ty_theme_color_b2_n5">#b3000000</color>
@@ -356,9 +371,9 @@
     <color name="ty_theme_color_m4_n5">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n5">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n5">#ffffffff</color>
-    <color name="ty_theme_color_m5_n5">#b3ffffff</color>
-    <color name="ty_theme_color_m5_1_n5">#b3ffffff</color>
-    <color name="ty_theme_color_m5_2_n5">#b3ffffff</color>
+    <color name="ty_theme_color_m5_n5">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n5">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n5">#ffffffff</color>
     <color name="ty_theme_color_b1_n6">#33000000</color>
     <color name="ty_theme_color_b1_2_n6">#33000000</color>
     <color name="ty_theme_color_b2_n6">#33000000</color>
@@ -383,9 +398,9 @@
     <color name="ty_theme_color_m4_n6">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n6">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n6">#ffffffff</color>
-    <color name="ty_theme_color_m5_n6">#33ffffff</color>
-    <color name="ty_theme_color_m5_1_n6">#33ffffff</color>
-    <color name="ty_theme_color_m5_2_n6">#33ffffff</color>
+    <color name="ty_theme_color_m5_n6">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n6">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n6">#ffffffff</color>
     <color name="ty_theme_color_b1_n7">#19000000</color>
     <color name="ty_theme_color_b1_2_n7">#19000000</color>
     <color name="ty_theme_color_b2_n7">#19000000</color>
@@ -410,9 +425,9 @@
     <color name="ty_theme_color_m4_n7">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n7">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n7">#ffffffff</color>
-    <color name="ty_theme_color_m5_n7">#19ffffff</color>
-    <color name="ty_theme_color_m5_1_n7">#19ffffff</color>
-    <color name="ty_theme_color_m5_2_n7">#19ffffff</color>
+    <color name="ty_theme_color_m5_n7">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n7">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n7">#ffffffff</color>
     <color name="ty_theme_color_b1_n8">#66000000</color>
     <color name="ty_theme_color_b1_2_n8">#66000000</color>
     <color name="ty_theme_color_b2_n8">#66000000</color>
@@ -437,7 +452,7 @@
     <color name="ty_theme_color_m4_n8">#ffffffff</color>
     <color name="ty_theme_color_m4_1_n8">#ffffffff</color>
     <color name="ty_theme_color_m4_2_n8">#ffffffff</color>
-    <color name="ty_theme_color_m5_n8">#66000000</color>
-    <color name="ty_theme_color_m5_1_n8">#66000000</color>
-    <color name="ty_theme_color_m5_2_n8">#66000000</color>
+    <color name="ty_theme_color_m5_n8">#ffffffff</color>
+    <color name="ty_theme_color_m5_1_n8">#ffffffff</color>
+    <color name="ty_theme_color_m5_2_n8">#ffffffff</color>
 </resources>

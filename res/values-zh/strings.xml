@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><resources>
   <string name="AES_KEY_LOAD_ERROR">获取解密服务失败</string>
+  <string name="CATEGORY_ICON_ELECTRICAL_APPLIANCES">电器</string>
+  <string name="CATEGORY_ICON_LAMPS">灯具</string>
   <string name="Confirm">确认</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_DESC_GEOGRAPHYARRIVE">门锁打开</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_DESC_GEOGRAPHYLEAVE">门锁关闭</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_TITLE_GEOGRAPHYARRIVE">回家模式</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_TITLE_GEOGRAPHYLEAVE">离家模式</string>
   <string name="Help">查看帮助</string>
   <string name="MULTI_CONTROL_GROUP_EXCEED_MAX_COUNT">超出最大限制数量：%s</string>
   <string name="NSBluetoothAlwaysUsageDescription">这将允许 App 查找并连接蓝牙配件。此 App 还可能使用蓝牙来获取蓝牙设备的位置</string>
@@ -19,6 +25,7 @@
   <string name="NUMEN_SET_OWNER_FOR_LOCATION_MSG_TITLE">家庭所有权转让</string>
   <string name="OUT_OF_DEV_STORAGE_CAPACITY">云存储不足</string>
   <string name="OUT_OF_FILE_CAPACITY">单张照片超出 %sMB 限制</string>
+  <string name="PRODUCT_NOT_EXISTS">na</string>
   <string name="ROOM_EXIST_DONT_ADD">房间已存在</string>
   <string name="_device">%s个设备</string>
   <string name="_room">%s个房间</string>
@@ -166,7 +173,7 @@
   <string name="cancel_tip">知道了</string>
   <string name="cannot_input_empty_string">请输入内容</string>
   <string name="cannot_load_image">\"无法加载该图片！\"</string>
-  <string name="cant_share_reason">蓝牙Mesh设备、ZigBee设备、红外设备暂时不支持单个设备的分享，需要将相关设备同时分享才能够正常操作。</string>
+  <string name="cant_share_reason">蓝牙Mesh设备、Zigbee设备、红外设备暂时不支持单个设备的分享，需要将相关设备同时分享才能够正常操作。</string>
   <string name="check_family">查看家庭</string>
   <string name="check_firmware_update">设备升级</string>
   <string name="check_update">检查固件升级</string>
@@ -227,6 +234,7 @@
   <string name="config_failure_try_again">再试一次</string>
   <string name="config_guide_add_device">点击“+”添加智能设备</string>
   <string name="config_linkmode">配网模式</string>
+  <string name="config_mode_not_support">该版本不支持此功能，若要使用该功能请升级版本</string>
   <string name="config_nearby_add_device_title">添加设备</string>
   <string name="config_nearby_alert_no_device">搜索超时，未发现设备</string>
   <string name="config_nearby_back_alert_no">继续添加</string>
@@ -263,7 +271,7 @@
   <string name="config_wifi_245g_warn">当前 Wi-Fi 为混频网络，建议将指示灯换成慢闪，是否要切换？</string>
   <string name="config_wifi_245g_yes">是</string>
   <string name="config_wifi_5g_mixing_check">当前 Wi-Fi 为混频网络，建议通过慢闪方式配网，是否要切换？</string>
-  <string name="config_wifi_5g_warn">当前连接的 5 GHz Wi-Fi 可能导致添加设备失败，建议切换成 2.4 GHz Wi-Fi，是否继续？</string>
+  <string name="config_wifi_5g_warn">当前连接的是 5GHz Wi-Fi，如果设备不支持请切换至 2.4GHz Wi-Fi，是否继续？</string>
   <string name="config_wifi_ap_desc">适合指示灯慢闪</string>
   <string name="config_wifi_ap_fragment_desc">如果你的 Wi-Fi 是 5GHz 的，请先设置为2.4GHz</string>
   <string name="config_wifi_ap_step1">1.请将手机连接到下图所示热点</string>
@@ -392,7 +400,7 @@
   <string name="ez_notSupport_5G">仅支持2.4G Wi-Fi 网络</string>
   <string name="ez_notSupport_5G_change">去更改</string>
   <string name="ez_notSupport_5G_continue">继续</string>
-  <string name="ez_notSupport_5G_tip">仅支持2.4G Wi-Fi网络，请重新选择</string>
+  <string name="ez_notSupport_5G_tip">当前连接的是 5GHz Wi-Fi，如果设备不支持请切换至 2.4GHz Wi-Fi，是否继续？</string>
   <string name="fail">操作失败</string>
   <string name="family_action_confirm">确认</string>
   <string name="family_add_Incompatible">该账号暂时不支持家庭模式，暂时无法添加到您的家庭。建议您联系该用户将App升级到最新版本。</string>
@@ -485,7 +493,7 @@
   <string name="firmware_upgrade_exception_check">查看教程</string>
   <string name="firmware_upgrade_exception_msg">因为夏/冬令时的切换，请按以下教程升级您的设备，否则可能会影响定时功能</string>
   <string name="firmware_upgrade_exception_tip">固件升级提醒</string>
-  <string name="firmware_upgrade_failure">升级失败，可能是由于信号太弱，请尝试将设备尽可能靠近路由器再升级。</string>
+  <string name="firmware_upgrade_failure">升级失败，可能是由于信号太弱，请检查设备网络后重新尝试</string>
   <string name="firmware_upgrade_failure_description">请将设备断电重启后再次尝试</string>
   <string name="firmware_upgrade_gw">联网模块版本:</string>
   <string name="firmware_upgrade_now">立即升级</string>
@@ -649,6 +657,9 @@
   <string name="image_load_failure">图片加载失败</string>
   <string name="immediate_updates">立即更新</string>
   <string name="in_tuya_msg">请在涂鸦APP中使用</string>
+  <string name="index_agreement">使用服务即表示您同意 {agreement}</string>
+  <string name="index_apple_iap_pay">苹果支付</string>
+  <string name="index_pay_not_support_iap">您的应用不支持应用内支付，请升级至最新版本</string>
   <string name="info_unselected">请选择需要删除的消息</string>
   <string name="initializer_apply_logout_tip">账号已注销，请重新登录</string>
   <string name="initializer_multi_devices_apply_login_tip">此账号已在另一台设备登录</string>
@@ -727,6 +738,7 @@
   <string name="ipc_ai_fr_value_add_dig_body">人脸识别是一项增值服务，您需要购买才可以使用该功能。</string>
   <string name="ipc_ai_fr_value_add_dig_title">增值服务</string>
   <string name="ipc_alarm_detected_feature_list">侦测报警设置</string>
+  <string name="ipc_alarm_interval_set">报警间隔设置</string>
   <string name="ipc_alarm_region_settings_tips">拖动/调整红色框至指定监控区域</string>
   <string name="ipc_alarm_timer_settings">定时</string>
   <string name="ipc_alarm_timer_settings_txt">报警功能定时设置</string>
@@ -893,6 +905,12 @@
   <string name="ipc_day_thu">四</string>
   <string name="ipc_day_tue">二</string>
   <string name="ipc_day_wed">三</string>
+  <string name="ipc_detection_alarm_audio">告警音</string>
+  <string name="ipc_detection_alarm_interval">告警间隔</string>
+  <string name="ipc_detection_alarm_switch">告警开关</string>
+  <string name="ipc_detection_alarm_volume">音量</string>
+  <string name="ipc_detection_area">区域</string>
+  <string name="ipc_detection_pir">侦测告警</string>
   <string name="ipc_digital_chime_time">响铃时长</string>
   <string name="ipc_display_contrast">对比度</string>
   <string name="ipc_doorbell_accept">接受</string>
@@ -907,6 +925,7 @@
   <string name="ipc_doorbell_file_authority">为获得最佳的用户体验，门铃响起时App会播放手机系统铃声，为此我们需要获取手机的文件读取权限。</string>
   <string name="ipc_doorbell_pic_load_fail_txt">图像加载失败</string>
   <string name="ipc_doorbell_pic_load_txt">图像加载中</string>
+  <string name="ipc_doorbell_set">门铃设置</string>
   <string name="ipc_doorbell_tip">等待接听门铃呼叫</string>
   <string name="ipc_dp_save_fail">操作失败</string>
   <string name="ipc_electric_lowpower_level">请设置低电量报警阈值</string>
@@ -923,6 +942,7 @@
   <string name="ipc_errmsg_add_memory_point_max">收藏点已达上限，请先删除后再重新添加。</string>
   <string name="ipc_errmsg_ap_pwd_illegal">密码校验失败</string>
   <string name="ipc_errmsg_ap_pwd_illegal_body">密码必须包含至少8位字母或数字</string>
+  <string name="ipc_errmsg_ap_timeout">响应超时</string>
   <string name="ipc_errmsg_awaken_without_permission">分享的设备，您无权限操作</string>
   <string name="ipc_errmsg_camera_mode_lowbat">设备当前电量过低，无法切换至指定模式，请为设备充电后重试。</string>
   <string name="ipc_errmsg_cdf_cant_found_video">当前选择范围内未找到视频，请重试。</string>
@@ -1044,6 +1064,7 @@
   <string name="ipc_panel_button_cruise">巡航</string>
   <string name="ipc_panel_button_cstorage">云存储</string>
   <string name="ipc_panel_button_direction">方向</string>
+  <string name="ipc_panel_button_edit">编辑</string>
   <string name="ipc_panel_button_hibernate">隐私模式</string>
   <string name="ipc_panel_button_light">灯</string>
   <string name="ipc_panel_button_memory_point">收藏点</string>
@@ -1078,6 +1099,8 @@
   <string name="ipc_permission_skip">跳过</string>
   <string name="ipc_permission_storage">点击授予存储权限以开启截图录像功能</string>
   <string name="ipc_photo_album_title">相册</string>
+  <string name="ipc_pir_sensitivity">灵敏度</string>
+  <string name="ipc_pir_set">PIR设置</string>
   <string name="ipc_pir_switch">PIR开关</string>
   <string name="ipc_play_mobileplay_tips">您正在使用移动网络查看画面，请注意网络消耗。</string>
   <string name="ipc_playback_no_records_today">当天暂无回放录像</string>
@@ -1094,6 +1117,10 @@
   <string name="ipc_record_type_doorbell_txt">门铃呼叫</string>
   <string name="ipc_record_type_motion_detected_txt">移动侦测</string>
   <string name="ipc_record_type_video_txt">普通录像</string>
+  <string name="ipc_recording_duration">录像时长设置</string>
+  <string name="ipc_recording_duration_finish">录像提前结束</string>
+  <string name="ipc_recording_duration_finish_reminder">开启“录像提前结束”开关后，在此录像时间段内只要在10s内无PIR事件触发，设备将提前进入休眠状态。</string>
+  <string name="ipc_recording_duration_set">时长</string>
   <string name="ipc_remote_unlock_failed">开锁失败</string>
   <string name="ipc_remote_unlock_hint">滑动至右侧开锁</string>
   <string name="ipc_remote_unlock_open_door">开锁</string>
@@ -1115,6 +1142,7 @@
   <string name="ipc_ringtone_7">铃声7</string>
   <string name="ipc_ringtone_8">铃声8</string>
   <string name="ipc_ringtone_9">铃声9</string>
+  <string name="ipc_save_photo_reminder">已保存到系统相册</string>
   <string name="ipc_screenshot_saved_tips_android">截屏已保存至我的相册</string>
   <string name="ipc_sdcard_capacity">存储容量</string>
   <string name="ipc_sdcard_capacity_residue">剩余容量</string>
@@ -1139,6 +1167,7 @@
   <string name="ipc_sdcard_state_abnormal_tip">存储异常，请先格式化后再试</string>
   <string name="ipc_sdcard_state_capacity_insufficient_tip">存储空间不足</string>
   <string name="ipc_sdcard_timer_settings">定时</string>
+  <string name="ipc_selection_alarm_audio">选择报警音</string>
   <string name="ipc_setting_advanced_setting">高级设置</string>
   <string name="ipc_setting_chime">铃铛设置</string>
   <string name="ipc_setting_multi_view">多路预览</string>
@@ -1289,6 +1318,8 @@
   <string name="ipc_status_sdcard_format">正在格式化</string>
   <string name="ipc_status_stream">正在获取视频流</string>
   <string name="ipc_status_stream_failed">获取视频流失败</string>
+  <string name="ipc_strong_prompt_content">确认删除已创建的监控区域？</string>
+  <string name="ipc_strong_prompt_title">删除监控区域</string>
   <string name="ipc_talkback_volume_txt">音量</string>
   <string name="ipc_time_capsule_events">%s个事件</string>
   <string name="ipc_time_capsule_objects">当前时段共%s个对象</string>
@@ -1298,6 +1329,7 @@
   <string name="ipc_tips_sound_open_success">声音已开启</string>
   <string name="ipc_tips_speaker_closed_success">对讲已关闭</string>
   <string name="ipc_tips_speaker_open_success">对讲开启成功</string>
+  <string name="ipc_toast_hungup">已挂断</string>
   <string name="ipc_toco_unsupport_dig_body">非常抱歉，您的设备在当前APP中不再可用，查看详情获取解决方案。</string>
   <string name="ipc_toco_unsupport_dig_detail">查看详情</string>
   <string name="ipc_toco_unsupport_dig_title">设备无法兼容</string>
@@ -1481,7 +1513,7 @@
   <string name="more_connect_type">查看更多连接方式</string>
   <string name="more_service_order_list">订单</string>
   <string name="more_service_recommand_service">精选服务</string>
-  <string name="more_service_thirdparty_service">语音等第三方接入服务</string>
+  <string name="more_service_thirdparty_service">语音等第三方服务</string>
   <string name="my_profile_choose_pic_from_camera">拍照</string>
   <string name="my_profile_choose_pic_from_local">从手机相册选择</string>
   <string name="my_smart_home">我的设备</string>
@@ -1568,9 +1600,14 @@
   <string name="ota_still_update">继续升级</string>
   <string name="ota_success">升级安装完成</string>
   <string name="ota_update_begin">开始更新</string>
+  <string name="ota_update_confirm_cancel_content">取消后可重新点击「更新」进行升级</string>
+  <string name="ota_update_confirm_cancel_title">确认取消升级吗？</string>
+  <string name="ota_update_inactivite_warning_txt">此设备为低功耗设备，将在设备唤醒后进行升级。</string>
   <string name="ota_update_nb_upgrading_remind">固件下载中，请确保设备处于电量充足状态。</string>
   <string name="ota_update_nb_wait_remind">正在唤醒设备，可能需要一段时间；升级期间可返回进行其他操作。</string>
   <string name="ota_update_remind">1.升级过程中请保持设备电源始终处于连接状态。 \n2.升级过程中设备将不能使用，请耐心等待。</string>
+  <string name="ota_update_waiting_for_upgrading">等待更新至</string>
+  <string name="ota_update_waiting_wake_up">等待设备唤醒...</string>
   <string name="ota_update_warning">更新注意事项</string>
   <string name="ota_update_warning_text_can_control">升级可能持续较长时间，请确保设备处于电量充足状态。</string>
   <string name="ota_update_warning_txt">升级可能持续较长时间，请确保设备处于电量充足状态。更新时设备不可使用。</string>
@@ -1620,7 +1657,7 @@
   <string name="personal_more_services">更多服务</string>
   <string name="personal_other_service">其他服务</string>
   <string name="personal_push_call_service">电话通知</string>
-  <string name="personal_service_new">NEW</string>
+  <string name="personal_service_new">New</string>
   <string name="personal_speech_service">语音服务</string>
   <string name="personal_speech_service_alexa">Alexa</string>
   <string name="personal_speech_service_dingdong">叮咚</string>
@@ -1670,7 +1707,7 @@
   <string name="privacy">隐私政策</string>
   <string name="privacy_doc">#</string>
   <string name="privacy_doc_name">#</string>
-  <string name="privacy_url">https://images.tuyacn.com/app/pAs/tuyasmart1202cn.html</string>
+  <string name="privacy_url">https://images.tuyacn.com/app/pAs/cn-tuyasmart1228.html</string>
   <string name="private_and_user_agreement">服务协议与隐私政策</string>
   <string name="problemSubmit_content_placeholder">请详细描述您当前反馈的故障问题，写明问题发生的具体路径，描述不清晰或信息不完整可能会影响问题处理进度。</string>
   <string name="productProposal_content_placeholder">请详细描述您的优化建议或改进方案</string>
@@ -1685,6 +1722,7 @@
   <string name="push_channel_doorbell">门铃通知</string>
   <string name="push_channel_longbell">长铃声通知</string>
   <string name="push_channel_shortbell">短铃声通知</string>
+  <string name="push_channel_warnbell">报警通知</string>
   <string name="push_permission_notify">为了确保能够收到消息推送，请在手机设置中打开应⽤的通知栏权限。</string>
   <string name="questionTips">您是否遇到如下问题</string>
   <string name="rate_us">鼓励一下我们</string>
@@ -1997,6 +2035,10 @@
   <string name="tx_status_slow">在慢闪(3秒/1次)</string>
   <string name="tx_status_title">选择指示灯状态</string>
   <string name="ty_about_tuyasmart">关于涂鸦智能</string>
+  <string name="ty_account_bind">已绑定</string>
+  <string name="ty_account_gotobind">去绑定</string>
+  <string name="ty_account_line">LINE</string>
+  <string name="ty_activator">激活</string>
   <string name="ty_activator_activate_stop_dialog_content_muti_device">关联设备：%s 等 %d 个设备</string>
   <string name="ty_activator_activate_stop_dialog_content_one_device">关联设备：%s</string>
   <string name="ty_activator_activate_stop_dialog_title">停止“%s”将会导致其他关联设备一起停止</string>
@@ -2010,12 +2052,15 @@
   <string name="ty_activator_bleLimit_share">请允许使用蓝牙</string>
   <string name="ty_activator_bleLimit_shareText">蓝牙</string>
   <string name="ty_activator_bleLimit_system_open">启用系统蓝牙</string>
+  <string name="ty_activator_cancel">取消</string>
   <string name="ty_activator_changeType">切换配网方式</string>
   <string name="ty_activator_comfirm_wifi">设备入网需要 Wi-Fi 信息，确定要添加吗？</string>
+  <string name="ty_activator_complete">完成</string>
   <string name="ty_activator_config_cable_gateway">配置有线网关</string>
   <string name="ty_activator_config_wifi_gateway">配置无线网关</string>
   <string name="ty_activator_connect_bluetooth">蓝牙配网</string>
   <string name="ty_activator_connect_bluetooth_text">通过蓝牙网络配网</string>
+  <string name="ty_activator_continue">继续</string>
   <string name="ty_activator_dev_img">图标</string>
   <string name="ty_activator_dev_name">名称</string>
   <string name="ty_activator_dev_off_line_warn">设备离线提醒</string>
@@ -2057,6 +2102,7 @@
   <string name="ty_activator_locationAlert_tips">请开启“位置”权限以自动获取Wi-Fi名称</string>
   <string name="ty_activator_more_question">更多配网常见问题</string>
   <string name="ty_activator_noSearch">未搜索到</string>
+  <string name="ty_activator_not_only_zigbeesub_dialog_tip">部分设备添加需要配置网关，可先添加其他设备</string>
   <string name="ty_activator_off_line_warn">离线提醒</string>
   <string name="ty_activator_openLimit_ble">启⽤蓝牙</string>
   <string name="ty_activator_openLimit_details">启⽤蓝牙才能搜索到附近蓝⽛设备，如不确定设备类型，建议全部开启权限</string>
@@ -2088,8 +2134,8 @@
   <string name="ty_activator_reset_guide_title2">2.强绑定设备</string>
   <string name="ty_activator_reset_guide_title3">3.如果仍有问题</string>
   <string name="ty_activator_scan_device_timeout_content">请确保蓝牙设备处于待配网状态并在附近</string>
-  <string name="ty_activator_scan_device_tip_noble">相应权限开启时，可自动发现 Wi-Fi/Zigbee/ 有线等设备</string>
-  <string name="ty_activator_scan_device_tip_title">相应权限开启时，可自动发现蓝牙 /Wi-Fi/Zigbee/ 有线等设备</string>
+  <string name="ty_activator_scan_device_tip_noble">正在搜索附近的设备...</string>
+  <string name="ty_activator_scan_device_tip_title">正在搜索附近的设备...</string>
   <string name="ty_activator_scaned_devices">添加设备</string>
   <string name="ty_activator_search">开始搜索</string>
   <string name="ty_activator_search_bleDevice">搜索蓝⽛设备</string>
@@ -2100,9 +2146,16 @@
   <string name="ty_activator_select_gateway">选择⽹关添加子设备</string>
   <string name="ty_activator_selected">已选：%s</string>
   <string name="ty_activator_status_change_failure">未能更改设置，请检查网络</string>
+  <string name="ty_activator_stop">终止</string>
+  <string name="ty_activator_stop_tip">终止进程将停止添加，是否继续</string>
   <string name="ty_activator_sub_failure1">网关是否处于在线状态</string>
   <string name="ty_activator_sub_failure2">网关、设备、手机是否靠近路由器</string>
   <string name="ty_activator_tryAgain">按步骤重试</string>
+  <string name="ty_activator_wifi_pwd_error_dialog_tip">输入的 Wi-Fi 密码错误，请重新输入</string>
+  <string name="ty_activator_wifichannel_activation">共%1$s个设备，激活成功%2$s个</string>
+  <string name="ty_activator_wifichannel_description">%s个设备待激活，激活后支持远程控制、设备分享</string>
+  <string name="ty_activator_wifichannel_title">设备激活</string>
+  <string name="ty_activator_zigbeesub_limit_tip">%s添加该类设备量达上限</string>
   <string name="ty_add_auto_button">添加“自动化”</string>
   <string name="ty_add_automatic_desc">根据天气、设备、时间等条件，自动执行</string>
   <string name="ty_add_blue_device_permission_title">如需添加蓝牙设备，需您开通一下权限</string>
@@ -2178,7 +2231,7 @@
   <string name="ty_ap_error_description">设备连接异常，请参考帮助后重试</string>
   <string name="ty_ap_error_title">设备连接异常</string>
   <string name="ty_app_siganature_illegal">当前安装来源不安全，请到正规应用商店重新下载</string>
-  <string name="ty_app_upgrade_tips">当前版本不支持该设备,\n请升级 App</string>
+  <string name="ty_app_upgrade_tips">当前版本不支持该设备,\n请至应用市场升级 App</string>
   <string name="ty_app_watch_cancel_tips">是否需要保存</string>
   <string name="ty_app_watch_device_empty">暂无设备</string>
   <string name="ty_app_watch_device_enabled">设备</string>
@@ -2193,6 +2246,7 @@
   <string name="ty_app_watch_title">Watch</string>
   <string name="ty_app_watch_url_instructions">iwatch 操作说明</string>
   <string name="ty_arrive_or_leave">到达/离开某地</string>
+  <string name="ty_auth_management">授权管理</string>
   <string name="ty_authorize_cancel">取消授权</string>
   <string name="ty_authorize_failed">授权失败</string>
   <string name="ty_auto_empty_tip">根据天气，设备，时间等条件，自动执行</string>
@@ -2211,6 +2265,12 @@
   <string name="ty_ble_device">蓝牙设备</string>
   <string name="ty_ble_permission_tip">未开启定位权限，无法连接蓝牙设备</string>
   <string name="ty_ble_scan_mesh">蓝牙mesh设备 x</string>
+  <string name="ty_ble_unlock_not_connect">无法连接蓝牙设备</string>
+  <string name="ty_ble_unlock_publish_dps_not_response">蓝牙设备无响应</string>
+  <string name="ty_ble_unlock_rssi_mismatch">蓝牙信号强度弱，请调低灵敏度</string>
+  <string name="ty_ble_unlock_timeout">未扫描到蓝牙设备</string>
+  <string name="ty_bluetooth_activate_waiting">等待蓝牙激活中</string>
+  <string name="ty_bluetooth_activating">蓝牙激活中</string>
   <string name="ty_bluetooth_device">蓝牙单点设备</string>
   <string name="ty_bluetooth_mesh_device">蓝牙mesh设备</string>
   <string name="ty_cache_cleaner">清理缓存</string>
@@ -2222,9 +2282,11 @@
   <string name="ty_change_gesture">修改手势密码</string>
   <string name="ty_change_login_keyword">修改登录密码</string>
   <string name="ty_choose_action">选择任务</string>
+  <string name="ty_choose_device_tip">请选择设备</string>
   <string name="ty_choose_exe_secene">选择要执行的“一键执行”</string>
   <string name="ty_choose_sub_device_with_gateway">选择与网关一同分享的子设备</string>
   <string name="ty_choose_touch_smart">选择要开关的“自动化”场景</string>
+  <string name="ty_cloud_app">云开发项目</string>
   <string name="ty_config">配置</string>
   <string name="ty_config_bluetooth_dev">蓝牙设备</string>
   <string name="ty_config_complete_info">立即完善</string>
@@ -2268,6 +2330,12 @@
   <string name="ty_current_bind_phone_tip">您当前绑定的账号为：</string>
   <string name="ty_custom_member_contact_manager">请先联系管理员在\n家庭设置-家庭成员 中开启权限</string>
   <string name="ty_custom_member_not_operate">自定义成员不可操作</string>
+  <string name="ty_dark_mode">深色模式</string>
+  <string name="ty_dark_mode_description">开启后，将跟随系统打开或关闭深色模式</string>
+  <string name="ty_dark_mode_follow_system">跟随系统</string>
+  <string name="ty_dark_mode_off">已关闭</string>
+  <string name="ty_dark_mode_on">已打开</string>
+  <string name="ty_dark_mode_sure_continue">新设置将在重启app后生效，是否继续？</string>
   <string name="ty_debug_dns">DNS解析时间</string>
   <string name="ty_debug_language_fetch_localize">获取更新词条</string>
   <string name="ty_debug_language_fetch_subtitle">每次最多可预览 200 个词条的变更</string>
@@ -2314,7 +2382,12 @@
   <string name="ty_device_bind_set_multi_control">已设置多控组</string>
   <string name="ty_device_bind_status_disable">已关闭</string>
   <string name="ty_device_bind_status_enable">已开启</string>
+  <string name="ty_device_channels_of_communicationl">信道</string>
   <string name="ty_device_connect">连接设备</string>
+  <string name="ty_device_connect_cloud_activation">连云激活</string>
+  <string name="ty_device_connect_cloud_activation_failed">激活失败</string>
+  <string name="ty_device_connect_cloud_activation_success">激活成功</string>
+  <string name="ty_device_connect_cloud_activation_tip">激活后支持远程控制、设备分享等</string>
   <string name="ty_device_crash_tips">请稍后再试</string>
   <string name="ty_device_detail_close">已关闭</string>
   <string name="ty_device_detail_close_sub_device_tip">关闭后，添加的遥控器将不在「首页」中展示</string>
@@ -2346,6 +2419,7 @@
   <string name="ty_device_select_icon_save">保存</string>
   <string name="ty_device_shortcut_create_dialog_tip">若添加失败，请前往系统设置，为 %s 打开“创建桌面快捷方式”的权限</string>
   <string name="ty_device_sort_delete_max">每次最多选择9项</string>
+  <string name="ty_device_ssid_empty">请输入 Wi-Fi 名</string>
   <string name="ty_device_sub_device_migrate">子设备迁移</string>
   <string name="ty_device_to_add">添加</string>
   <string name="ty_device_to_add_retry">重试</string>
@@ -2376,6 +2450,8 @@
   <string name="ty_ej_device_switch_off_tips">已为您关闭，智能触手可及！</string>
   <string name="ty_ej_device_switch_on_tips">已为您打开，乐享智能生活！</string>
   <string name="ty_encourage_error_info">企业包暂不支持此功能</string>
+  <string name="ty_energy_guide_tip">家庭电、水、气等能源综合查看及管理</string>
+  <string name="ty_energy_manager">家庭能源管理</string>
   <string name="ty_enter_keyword_tip">6-20个字符，包含字母和数字</string>
   <string name="ty_enter_scene_name">请输入“一键执行”名称</string>
   <string name="ty_equipment_information">设备信息</string>
@@ -2403,6 +2479,9 @@
   <string name="ty_ez_status_share">共享给家人</string>
   <string name="ty_ez_status_success">添加成功</string>
   <string name="ty_ez_wifi_title">输入家中的Wi-Fi密码</string>
+  <string name="ty_family_complete_family_tip">请先完善家庭信息后再邀请新的成员</string>
+  <string name="ty_family_go_complete">去完善</string>
+  <string name="ty_family_guide_skip_tip">之后可前往“家庭管理”中创建家庭</string>
   <string name="ty_family_manager">家庭管理</string>
   <string name="ty_fdq_call_phone">%s 正在呼叫手机</string>
   <string name="ty_firmware_auto_upgrade_switch_desc">开启自动升级功能后，设备将自动进行升级。重要功能升级仍需确认后进行</string>
@@ -2449,9 +2528,16 @@
   <string name="ty_gprs_enter">手动输入设备编号</string>
   <string name="ty_gprs_locate">定位权限未开启</string>
   <string name="ty_gprs_scanning">扫描设备二维码</string>
+  <string name="ty_has_unbind">已解除绑定</string>
+  <string name="ty_health_center">健康中心</string>
   <string name="ty_homeKit_info">HomeKit 信息</string>
+  <string name="ty_home_Intelligent_recommendation">智能推荐</string>
+  <string name="ty_home_activator_numtip">%s个设备待激活</string>
+  <string name="ty_home_activator_numtip_description">激活后支持远程控制、设备分享等</string>
+  <string name="ty_home_activator_success">激活成功</string>
   <string name="ty_home_default_home_name">我的家 ..</string>
   <string name="ty_home_device_over_limit">设备数量已满</string>
+  <string name="ty_home_dont_show_again">不再显示</string>
   <string name="ty_home_empty_more">了解更多</string>
   <string name="ty_home_empty_tip">暂无设备</string>
   <string name="ty_home_nav_family">首页</string>
@@ -2476,10 +2562,20 @@
   <string name="ty_homekit_binded">已绑定</string>
   <string name="ty_homekit_device">HomeKit 设备</string>
   <string name="ty_homekit_device_binding">正在绑定“%s”</string>
+  <string name="ty_homekit_device_empty">暂无 HomeKit 设备</string>
   <string name="ty_homekit_unbindable">不可绑定</string>
   <string name="ty_homekit_unbindable_tips">设备不可连接，请将手机连接到设备所在 Wi-Fi，刷新列表后进行绑定操作</string>
   <string name="ty_iOS_app_share">分享 iOS 下载地址</string>
   <string name="ty_iOS_share_url">https://itunes.apple.com/us/app/tuyasmart/id1034649547?mt=8</string>
+  <string name="ty_iap_can_not_pay">用户禁止购买</string>
+  <string name="ty_iap_is_gray_test">Beta 版本无法使用苹果支付购买商品</string>
+  <string name="ty_iap_jailbroken">越狱手机无法购买</string>
+  <string name="ty_iap_no_products">没有可以购买的商品</string>
+  <string name="ty_iap_pay_canceled">取消支付</string>
+  <string name="ty_iap_pay_failed">支付失败</string>
+  <string name="ty_iap_pay_has_other_payment">正在处理上一笔交易，请稍后再试</string>
+  <string name="ty_iap_pay_success">支付成功</string>
+  <string name="ty_iap_waiting">请稍候</string>
   <string name="ty_igonre_tip">不再显示此提示</string>
   <string name="ty_illegal_dp_data">DP点不合法</string>
   <string name="ty_input_email">邮箱</string>
@@ -2493,6 +2589,7 @@
   <string name="ty_keep_alive_notification_content">点击查看设备</string>
   <string name="ty_keep_alive_notification_title">设备正在运行中</string>
   <string name="ty_keep_power_working">请勿切断设备电源</string>
+  <string name="ty_light_mode">普通模式</string>
   <string name="ty_lightskin_edit_info">编辑资料</string>
   <string name="ty_load_error">加载失败</string>
   <string name="ty_loading">加载中…</string>
@@ -2513,6 +2610,7 @@
   <string name="ty_login_register">注册</string>
   <string name="ty_login_register_nostate">请先选择账号的归属国家和地区</string>
   <string name="ty_login_sms">验证码登录</string>
+  <string name="ty_login_sure">确定要退出吗?</string>
   <string name="ty_login_thirdparty">你已开通电话通知与短信通知服务，更换手机号码后请在“电话通知设置”中添加新手机号，更换手机号将造成已购买的短信通知服务无法使用，是否继续更换手机号？</string>
   <string name="ty_login_thirdparty_call">你已开通电话通知服务，更换手机号码后请在“电话通知设置”中添加新手机号码</string>
   <string name="ty_login_thirdparty_sms">你已开通短信通知服务，更换手机号码将造成已购买的短信通知服务无法使用，是否继续更换手机号？</string>
@@ -2522,6 +2620,14 @@
   <string name="ty_login_wechat">微信</string>
   <string name="ty_login_youremail">你的邮箱</string>
   <string name="ty_login_yourmobile">你的手机号码</string>
+  <string name="ty_logoff_conform">确认注销</string>
+  <string name="ty_logoff_continue">继续注销</string>
+  <string name="ty_logoff_forever">注销后，此账户下的所有用户数据也将被永久删除</string>
+  <string name="ty_logoff_getcode">点击“获取验证码”，验证码将发送到你的%1$s： %2$s</string>
+  <string name="ty_logoff_password">请输入你的账号关联的密码，完成你的注销请求</string>
+  <string name="ty_logoff_query_sure">确定要注销账号吗?</string>
+  <string name="ty_logoff_setpassword_skip">跳过</string>
+  <string name="ty_logoff_title">注销账号</string>
   <string name="ty_logout_loading">正在安全退出，请稍后…</string>
   <string name="ty_mac_addr">Mac 地址</string>
   <string name="ty_make_call">呼叫</string>
@@ -2586,6 +2692,7 @@
   <string name="ty_message_had_read_all">全部已读</string>
   <string name="ty_message_info_selected_too_many">勾选数量需低于 %d 个</string>
   <string name="ty_message_item_selected">已选 %d 个</string>
+  <string name="ty_message_limit">用户绑定手机号短信验证码发送受限</string>
   <string name="ty_message_more">通知类型设置</string>
   <string name="ty_message_more_normal_push">系统公告</string>
   <string name="ty_message_more_other_push">营销消息</string>
@@ -2710,9 +2817,11 @@
   <string name="ty_panel_device_tz">设备时区</string>
   <string name="ty_panel_group_confirm_remove">确定要移除群组吗？</string>
   <string name="ty_panel_share_group">共享群组</string>
+  <string name="ty_password_bind">可用绑定的 %s 和密码的方式登录你的账号</string>
   <string name="ty_password_regular1">6-20 个字符，包含字母和数字</string>
   <string name="ty_password_regular2">8-20 个字符，包含大小写字母和数字</string>
   <string name="ty_password_regular3">8-20 个字符，包含大小写字母、数字和特殊字符</string>
+  <string name="ty_password_skip">如要设置密码，请前往”账号与安全&gt;修改登录密码“进行操作</string>
   <string name="ty_permission_tip_contact">手机通讯录权限获取失败，请到手机“设置 - 应用 - %s - 权限”中设置授予通讯录访问的权限</string>
   <string name="ty_permission_tip_location">- 获取手机位置信息的权限</string>
   <string name="ty_permission_tip_phone_state">- 获取电话设备信息的权限</string>
@@ -2740,6 +2849,7 @@
   <string name="ty_refresh_footer_pulling">松开立即加载更多</string>
   <string name="ty_refresh_footer_refreshing">正在加载更多的数据…</string>
   <string name="ty_remove">移除</string>
+  <string name="ty_remove_bind">解除绑定</string>
   <string name="ty_remove_binding">解除绑定</string>
   <string name="ty_remove_binding_and_clean_data">解绑并清除数据</string>
   <string name="ty_remove_out_family">您已被移出了家庭%s已无法操作该家庭的设备和智能</string>
@@ -2748,6 +2858,13 @@
   <string name="ty_report_pairing_issue">配网问题反馈</string>
   <string name="ty_request_fail_to_open">获取定位权限失败,请在设置中手动开启定位权限</string>
   <string name="ty_request_location_permission_fail">获取定位权限失败,请允许定位权限</string>
+  <string name="ty_review_device_control_success_title">成功控制了设备！</string>
+  <string name="ty_review_item_cancel">下次再说</string>
+  <string name="ty_review_item_comment">去给好评</string>
+  <string name="ty_review_item_feedback">我要吐槽</string>
+  <string name="ty_review_operate_success_hint">您是否对App功能比较满意呢？</string>
+  <string name="ty_review_scene_add_success_title">添加场景成功！</string>
+  <string name="ty_review_value_add_service_success_title">增值服务购买成功！</string>
   <string name="ty_room_none_permission_tip">请先联系管理员在“家庭设置-家庭成员中开启权限”</string>
   <string name="ty_room_none_permission_title">普通成员不可操作</string>
   <string name="ty_save_room_suc">保存成功！</string>
@@ -2880,6 +2997,7 @@
   <string name="ty_testflight_content">亲爱的用户，现邀请你参与 App 内测，你将有机会下载内测版 App，体验尚未正式发布的新功能。</string>
   <string name="ty_testflight_join">参加</string>
   <string name="ty_thanks">谢谢您的支持</string>
+  <string name="ty_third_account_bind">第三方账号绑定</string>
   <string name="ty_thirdparty_no_device">没有支持的设备</string>
   <string name="ty_thirdparty_no_device_tip">请先添加一个支持的设备，或联系服务商。</string>
   <string name="ty_timer_success_notification">执行通知</string>
@@ -2889,6 +3007,16 @@
   <string name="ty_touch_start">触发后启动</string>
   <string name="ty_touch_stop">触发后停用</string>
   <string name="ty_tp_timer_zone_remian">正在使用 GMT%s 时区时间设定</string>
+  <string name="ty_unbind_alert_message">解绑后，该云开发项目管理员无法继续管理和控制你帐号下的设备</string>
+  <string name="ty_unbind_alert_title">确定要解除绑定？</string>
+  <string name="ty_unbind_confirm">解除绑定</string>
+  <string name="ty_unbind_limit">你的注册方式为微信账号，暂时无法解绑</string>
+  <string name="ty_unbind_line_limit">你的注册方式为 LINE 注册，暂时无法解绑</string>
+  <string name="ty_unbind_line_sure">确定要解除 LINE 绑定？</string>
+  <string name="ty_unbind_line_sure_message">解绑 LINE 账号后将无法继续继续使用它登录:%s</string>
+  <string name="ty_unbind_success">解绑成功</string>
+  <string name="ty_unbind_sure">确定要解除微信绑定？</string>
+  <string name="ty_unbind_sure_message">解绑微信账号后将无法继续继续使用它登录:%s</string>
   <string name="ty_update_family_info">家庭信息已更新</string>
   <string name="ty_update_name">编辑名称</string>
   <string name="ty_update_scene">编辑“一键执行”</string>
@@ -2952,6 +3080,7 @@
   <string name="user_complete_info">立即完善帐号信息</string>
   <string name="user_exists">此账号已注册</string>
   <string name="user_exit_experience">退出体验</string>
+  <string name="user_logining">正在加载...</string>
   <string name="user_share_detail">共享详情</string>
   <string name="user_share_device_list">共享给他的设备</string>
   <string name="user_share_oren">共享给</string>

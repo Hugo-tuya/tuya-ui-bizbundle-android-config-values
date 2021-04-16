@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><resources>
   <string name="AES_KEY_LOAD_ERROR">암호 해독 서비스를 가져오는 데 실패했습니다.</string>
+  <string name="CATEGORY_ICON_ELECTRICAL_APPLIANCES">가전 기기</string>
+  <string name="CATEGORY_ICON_LAMPS">조명</string>
   <string name="Confirm">확인</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_DESC_GEOGRAPHYARRIVE">잠금 해제</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_DESC_GEOGRAPHYLEAVE">잠김</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_TITLE_GEOGRAPHYARRIVE">귀가</string>
+  <string name="DEVICE_RULE_DOOR_LOCK_TITLE_GEOGRAPHYLEAVE">외출</string>
   <string name="Help">도움말</string>
   <string name="MULTI_CONTROL_GROUP_EXCEED_MAX_COUNT">한도 초과: %s</string>
   <string name="NSBluetoothAlwaysUsageDescription">이 앱으로 블루투스 액세서리나 기기를 찾아 연결할 수도 있으며 블루투스를 통해 기기의 위치정보를 확인할 수 있습니다.</string>
@@ -226,6 +232,7 @@
   <string name="config_failure_try_again">다시 시도하십시오.</string>
   <string name="config_guide_add_device">“+”를 클릭하여 스마트기기를 추가하십시오.</string>
   <string name="config_linkmode">네트워크 페어링 모드</string>
+  <string name="config_mode_not_support">현재 버전은 이 기능을 지원하지 않습니다. 이 기능을 사용하려면 버전을 업그레이드하십시오.</string>
   <string name="config_nearby_add_device_title">기기 추가</string>
   <string name="config_nearby_alert_no_device">검색시간이 초과되었습니다. 기기를 찾을 수 없습니다.</string>
   <string name="config_nearby_back_alert_no">계속 추가</string>
@@ -261,7 +268,7 @@
   <string name="config_wifi_245g_warn">현재 Wi-Fi 네트워크가 혼합되어 있습니다. 저속 플래시 모드로 사용하는 것을 권장합니다. 전환 하시겠습니까?</string>
   <string name="config_wifi_245g_yes">확인</string>
   <string name="config_wifi_5g_mixing_check">현재 Wi-Fi 네트워크가 혼합되어 있습니다. 저속 플래시 모드로 사용하는 것을 권장합니다. 전환 하시겠습니까?</string>
-  <string name="config_wifi_5g_warn">현재 5G Wi-Fi에 연결되어 있습니다. 2.4G Wi-Fi로 변경하십시요. 계속 진행하시겠습니까?</string>
+  <string name="config_wifi_5g_warn">휴대전화가 5GHz Wi-Fi에 연결되어 있습니다. 장치가 5GHz Wi-Fi를 지원하는 않는 경우 2.4GHz Wi-Fi로 변경하십시오. 계속하시겠습니까? </string>
   <string name="config_wifi_ap_desc">표시등이 천천히 깜박이는 것이 정상입니다.</string>
   <string name="config_wifi_ap_fragment_desc">Wi-Fi가 5G인 경우 먼저 2.4G로 변환 설정하십시오.</string>
   <string name="config_wifi_ap_step1">1. 휴대폰을 아래와 같은 핫스팟에 연결하십시오.</string>
@@ -393,7 +400,7 @@
   <string name="ez_notSupport_5G">2.4G 와이파이만 지원합니다.</string>
   <string name="ez_notSupport_5G_change">변경하기</string>
   <string name="ez_notSupport_5G_continue">계속</string>
-  <string name="ez_notSupport_5G_tip">2.4Ghz Wi-Fi만 지원됩니다. 2.4Ghz의 네트워크를 선택하십시오.</string>
+  <string name="ez_notSupport_5G_tip">휴대전화가 5GHz Wi-Fi에 연결되어 있습니다. 장치가 5GHz Wi-Fi를 지원하는 않는 경우 2.4GHz Wi-Fi로 변경하십시오. 계속하시겠습니까? </string>
   <string name="fail">작업에 실패했습니다.</string>
   <string name="family_action_confirm">확인</string>
   <string name="family_add_Incompatible">해당 계정은 잠시 홈 모드를 지원하지 않음으로 귀하의 홈의 추가할 수 없습니다. 해당 사용자에게 연락하여 앱을 최신 버전으로 업그레이드 하시기를 바랍니다.</string>
@@ -483,7 +490,7 @@
   <string name="firmware_upgrade_exception_check">튜토리얼 보기</string>
   <string name="firmware_upgrade_exception_msg">여름 / 겨울 전환 시스템에 의해 다음 튜토리얼에 따라 기기를 업그레이드하십시오. 그렇지 않으면 타이머 기능에 영향을 줄 수 있습니다</string>
   <string name="firmware_upgrade_exception_tip">펌웨어 업그레이드 알림</string>
-  <string name="firmware_upgrade_failure">업그레이드에 실패했습니다.신호가 약한 경우에는 라우터에 가까이 하셔서 다시 업그레이드 하십시오.</string>
+  <string name="firmware_upgrade_failure">업데이트에 실패했습니다. 네트워크 연결을 확인하고 다시 시도하십시오.</string>
   <string name="firmware_upgrade_failure_description">기기의 전원을 껐다 켜신 후 다시 시도하십시오.</string>
   <string name="firmware_upgrade_gw">모듈 버전 :</string>
   <string name="firmware_upgrade_now">바로 업그레이드</string>
@@ -628,6 +635,9 @@
   <string name="image_load_failure">이미지 로딩 실패</string>
   <string name="immediate_updates">바로 업데이트</string>
   <string name="in_tuya_msg">Tuya Smart 앱에서 사용하십시오.</string>
+  <string name="index_agreement">이 서비스를 사용하면 {agreement}에 동의하는 것으로 간주합니다.</string>
+  <string name="index_apple_iap_pay">Apple Pay</string>
+  <string name="index_pay_not_support_iap">이 버전은 앱 구매를 지원하지 않습니다. 최신 버전으로 업데이트하십시오.</string>
   <string name="info_unselected">삭제할 메시지를 선택하십시오.</string>
   <string name="initializer_apply_logout_tip">계정이 삭제되었습니다. 다시 로그인하십시오.</string>
   <string name="initializer_multi_devices_apply_login_tip">이 계정은 이미 다른 기기에서 로그인되어 있습니다.</string>
@@ -705,6 +715,7 @@
   <string name="ipc_ai_fr_value_add_dig_body">얼굴인식 서비스는 부가서비스입니다. 사용을 원하시면 부가서비스를 구매하십시요</string>
   <string name="ipc_ai_fr_value_add_dig_title">부가 서비스</string>
   <string name="ipc_alarm_detected_feature_list">감지 알람 설정</string>
+  <string name="ipc_alarm_interval_set">알람 간격</string>
   <string name="ipc_alarm_region_settings_tips">빨간색 영역을 지정된 모니터링 영역으로 조정하십시오.</string>
   <string name="ipc_alarm_timer_settings">타이머</string>
   <string name="ipc_alarm_timer_settings_txt">경보 타이머</string>
@@ -900,6 +911,7 @@
   <string name="ipc_enter_album_tips_ios">스크린샷이 갤러리에 저장되었습니다..</string>
   <string name="ipc_errmasg_add_memory_point_cruise">탐색 모드 사용 중에는 탐색 장소를 추가할 수 없습니다.</string>
   <string name="ipc_errmsg_add_memory_point_max">지정할 수 있는 영역이 초과되었습니다. 삭제 후 다시 추가하십시오.</string>
+  <string name="ipc_errmsg_ap_timeout">응답시간이 초과되었습니다.</string>
   <string name="ipc_errmsg_awaken_without_permission">해당 기능을 사용할 권한이 없습니다.</string>
   <string name="ipc_errmsg_camera_mode_lowbat">배터리가 부족합니다. 충전 후 재시도 하십시오.</string>
   <string name="ipc_errmsg_cdf_cant_found_video">현재 선택한 동영상이 없습니다. 다시 시도하십시오.</string>
@@ -1020,6 +1032,7 @@
   <string name="ipc_panel_button_cruise">자동 감시</string>
   <string name="ipc_panel_button_cstorage">클라우드 저장공간</string>
   <string name="ipc_panel_button_direction">방향</string>
+  <string name="ipc_panel_button_edit">편집</string>
   <string name="ipc_panel_button_hibernate">사생활 보호 모드</string>
   <string name="ipc_panel_button_light">조명</string>
   <string name="ipc_panel_button_memory_point">지정 영역</string>
@@ -1070,6 +1083,10 @@
   <string name="ipc_record_type_doorbell_txt">도어벨</string>
   <string name="ipc_record_type_motion_detected_txt">움직임 감지</string>
   <string name="ipc_record_type_video_txt">일반 녹화</string>
+  <string name="ipc_recording_duration">비디오 녹화 시간</string>
+  <string name="ipc_recording_duration_finish">조기 종료</string>
+  <string name="ipc_recording_duration_finish_reminder">조기 종료가 활성화된 후, 녹화 기간 동안 10초 내에 PIR 이벤트가 비디오 녹화를 트리거하지 않으면 장치가 절전 모드로 전환됩니다.</string>
+  <string name="ipc_recording_duration_set">시간</string>
   <string name="ipc_resolution_hd">HD</string>
   <string name="ipc_resolution_ld">저화질</string>
   <string name="ipc_resolution_sd">표준 화질</string>
@@ -1251,6 +1268,7 @@
   <string name="ipc_tips_sound_open_success">소리가 켜졌습니다.</string>
   <string name="ipc_tips_speaker_closed_success">대화가 종료되었습니다.</string>
   <string name="ipc_tips_speaker_open_success">대화모드가 켜졌습니다.</string>
+  <string name="ipc_toast_hungup">전화 끊김</string>
   <string name="ipc_toco_unsupport_dig_body">죄송합니다. 현재 앱에서 귀하의 기기를 더 이상 지원하지 않습니다. 해결을 위해 세부 사항을 확인하십시오.</string>
   <string name="ipc_toco_unsupport_dig_detail">상세내용을 확인하십시오</string>
   <string name="ipc_toco_unsupport_dig_title">호환되지 않는 기기입니다.</string>
@@ -1314,9 +1332,9 @@
   <string name="login_USA">미국</string>
   <string name="login_and">과(와)</string>
   <string name="login_anonymous_complete_info">완벽한 정보</string>
-  <string name="login_anonymous_complete_info_content">클라우드 스토리지&lt;&amp;&amp;&gt;등록 후 모든 장치를 클라우드에 저장할 수있어 장치 정보의 멀티 엔드 동기화&lt;&amp;&amp;&gt;타사 음성 제어&lt;&amp;&amp;&gt;Amazon Alexa 또는 Google Home 을 통한 스마트 장치 제어&lt;&amp;&amp;&gt;공유 친구 나 가족에게 기기 또는 가족</string>
+  <string name="login_anonymous_complete_info_content">클라우드 스토리지 &lt;&amp;&amp;&gt; 등록 후 장치 데이터가 클라우드에 업로드되고 클라우드에 저장되어 정보 동기화가 향상됩니다. &lt;&amp;&amp;&gt; 타사 음성 제어 &lt;&amp;&amp;&gt; Amazon Alexa와 같은 타사 음성 비서에 대한 액세스, Google Home 등. &lt;&amp;&amp;&gt; 기기 공유 &lt;&amp;&amp;&gt; 친구 및 가족과 기기를 공유하세요.</string>
   <string name="login_anonymous_complete_info_subtitle">정보를 완료하면 다음 기능을 사용할 수 있습니다.</string>
-  <string name="login_anonymous_contents">클라우드 스토리지&lt;&amp;&amp;&gt;등록 후 모든 장치를 클라우드에 저장할 수있어 장치 정보의 멀티 엔드 동기화&lt;&amp;&amp;&gt;타사 음성 제어&lt;&amp;&amp;&gt;Amazon Alexa 또는 Google Home 을 통한 스마트 장치 제어&lt;&amp;&amp;&gt;공유 친구 나 가족에게 기기 또는 가족</string>
+  <string name="login_anonymous_contents">클라우드 스토리지&lt;&amp;&amp;&gt;등록 후 모든 장치를 클라우드에 저장할 수있어 장치 정보의 멀티 엔드 동기화&lt;&amp;&amp;&gt;타사 음성 제어&lt;&amp;&amp;&gt;Amazon Alexa 또는 Google Home 을 통한 스마트 장치 제어&lt;&amp;&amp;&gt; 기기 공유 &lt;&amp;&amp;&gt; 친구 및 가족과 기기를 공유하세요.</string>
   <string name="login_anonymous_continus">경험을 계속하십시오</string>
   <string name="login_anonymous_exit_content">모든 설정이 클라우드에 저장되도록 계정 정보 개선</string>
   <string name="login_anonymous_exit_title">경험을 종료하면 모든 설정이 삭제됩니다</string>
@@ -1434,7 +1452,7 @@
   <string name="more_connect_type">더 많은 연결 방법보기</string>
   <string name="more_service_order_list">주문</string>
   <string name="more_service_recommand_service">추천 서비스</string>
-  <string name="more_service_thirdparty_service">AI스피커 등 외부 접속 서비스</string>
+  <string name="more_service_thirdparty_service">타사 음성 서비스</string>
   <string name="my_profile_choose_pic_from_camera">카메라</string>
   <string name="my_profile_choose_pic_from_local">갤러리에서 선택</string>
   <string name="my_smart_home">나의 기기</string>
@@ -1521,10 +1539,15 @@
   <string name="ota_still_update">계속 업그레이드</string>
   <string name="ota_success">업그레이드가 완료되었습니다.</string>
   <string name="ota_update_begin">업데이트 시작</string>
+  <string name="ota_update_confirm_cancel_content">취소한 다음 업데이트를 클릭하여 계속 진행합니다.</string>
+  <string name="ota_update_confirm_cancel_title">업데이트를 취소하시겠습니까?</string>
+  <string name="ota_update_inactivite_warning_txt">이 저전력 장치는 절전 모드에서 해제된 후 업데이트됩니다.</string>
   <string name="ota_update_nb_upgrading_remind">펌웨어 다운로드 중입니다. 기기의 배터리가 충분한지 확인하십시오.</string>
   <string name="ota_update_nb_wait_remind">기기를 불러오는 중입니다. 시간이 다소 걸릴 수도 있습니다. 기다리는 동안 다른 작업을 할 수 있습니다.</string>
   <string name="ota_update_remind">1. 기기의 전원을 연결한 상태에서 업그레이드를 진행하십시오. \n
 2. 업그레이드 중에는 기기를 사용할 수 없습니다. 잠시만 기다려 주십시오.</string>
+  <string name="ota_update_waiting_for_upgrading">업데이트 대기 중</string>
+  <string name="ota_update_waiting_wake_up">장치가 절전 모드에서 해제될 때까지 기다리십시오.</string>
   <string name="ota_update_warning">주의사항 업데이트</string>
   <string name="ota_update_warning_text_can_control">업그레이드 시간이 오래 걸릴 수 있습니다. 기기의 배터리가 충분한지 확인하십시오.</string>
   <string name="ota_update_warning_txt">업그레이드 시간이 오래 걸릴 수 있습니다. 기기의 배터리가 충분한지 확인하십시오. 업그레이드 중에는 기기를 사용할 수 없습니다.</string>
@@ -1573,7 +1596,7 @@
   <string name="personal_more_services">더 많은 서비스</string>
   <string name="personal_other_service">기타 서비스</string>
   <string name="personal_push_call_service">휴대폰 알림</string>
-  <string name="personal_service_new">신규</string>
+  <string name="personal_service_new">최신</string>
   <string name="personal_speech_service">음성 서비스</string>
   <string name="personal_speech_service_alexa">Alexa</string>
   <string name="personal_speech_service_dingdong">DingDong</string>
@@ -1638,6 +1661,7 @@
   <string name="push_channel_doorbell">도어벨 알림</string>
   <string name="push_channel_longbell">긴 벨소리 알림</string>
   <string name="push_channel_shortbell">짧은 벨 알림</string>
+  <string name="push_channel_warnbell">알람 알림</string>
   <string name="push_permission_notify">알림 수신에 동의하시려면 설정에서 알림을 허용하십시오.</string>
   <string name="questionTips">다음과 같은 문제가 발생했습니까?</string>
   <string name="rate_us">여러분의 많은 관심과 성원을 바랍니다.</string>
@@ -1853,6 +1877,7 @@
   <string name="service_doc_name">#</string>
   <string name="service_running_tips_content">백그라운드 서비스 사용중입니다.</string>
   <string name="service_running_tips_title">백그라운드로 실행됩니다.</string>
+  <string name="service_url">#</string>
   <string name="set_center_account">지역</string>
   <string name="set_family_manage">관리자로 설정</string>
   <string name="set_location">설정</string>
@@ -1949,6 +1974,10 @@
   <string name="tx_status_slow">느리게 깜박입니다.(3초/1회)</string>
   <string name="tx_status_title">표시등 상태 선택</string>
   <string name="ty_about_tuyasmart">Tuya Smart 소개</string>
+  <string name="ty_account_bind">링크됨</string>
+  <string name="ty_account_gotobind">지금 연결</string>
+  <string name="ty_account_line">LINE</string>
+  <string name="ty_activator">활성화</string>
   <string name="ty_activator_activate_stop_dialog_content_muti_device">관련 장치 : %s 및 기타 %d 장치</string>
   <string name="ty_activator_activate_stop_dialog_content_one_device">관련 장비 : %s</string>
   <string name="ty_activator_activate_stop_dialog_title">\"%s\"을 (를) 중지하면 다른 관련 장치가 함께 중지됩니다.</string>
@@ -1962,12 +1991,15 @@
   <string name="ty_activator_bleLimit_share">블루투스 접속을 승인하십시오.</string>
   <string name="ty_activator_bleLimit_shareText">블루투스</string>
   <string name="ty_activator_bleLimit_system_open">블루투스를 켜십시오.</string>
+  <string name="ty_activator_cancel">취소</string>
   <string name="ty_activator_changeType">페어링 모드 전환</string>
   <string name="ty_activator_comfirm_wifi">기기에서 네트워크에 액세스하려면 Wi-Fi 정보가 필요합니다. 추가 하시겠습니까?</string>
+  <string name="ty_activator_complete">완료</string>
   <string name="ty_activator_config_cable_gateway">유선 게이트웨이 설정</string>
   <string name="ty_activator_config_wifi_gateway">무선 게이트웨이 설정</string>
   <string name="ty_activator_connect_bluetooth">블루투스 페어링</string>
   <string name="ty_activator_connect_bluetooth_text">블루투스를 통해 네트워크를 연결합니다.</string>
+  <string name="ty_activator_continue">계속</string>
   <string name="ty_activator_dev_img">아이콘</string>
   <string name="ty_activator_dev_name">이름</string>
   <string name="ty_activator_dev_off_line_warn">기기 오프라인 알림</string>
@@ -2008,6 +2040,7 @@
   <string name="ty_activator_locationAlert_tips">Wi-Fi 이름을 자동으로 가져오려면 위치 권한을 활성화 하십시오.</string>
   <string name="ty_activator_more_question">네트워크 설정에 관한 FAQ</string>
   <string name="ty_activator_noSearch">찾지 못했습니다</string>
+  <string name="ty_activator_not_only_zigbeesub_dialog_tip">일부 장치를 추가하려면 게이트웨이를 구성해야 합니다. 먼저 다른 장치를 추가할 수 있습니다.</string>
   <string name="ty_activator_off_line_warn">오프라인 알림</string>
   <string name="ty_activator_openLimit_ble">블루투스 활성화</string>
   <string name="ty_activator_openLimit_details">블루투스를 활성화하여 주변의 블루투스 기기를 검색합니다. 기기 유형을 모르는 경우, 모든 권한을 활성화해 주십시오.</string>
@@ -2038,8 +2071,8 @@
   <string name="ty_activator_reset_guide_title2">2. 장치를 강하게 묶습니다.</string>
   <string name="ty_activator_reset_guide_title3">3. 여전히 문제가있는 경우</string>
   <string name="ty_activator_scan_device_timeout_content">Bluetooth 장치가 대기 상태이고 근처에 있는지 확인하십시오.</string>
-  <string name="ty_activator_scan_device_tip_noble">해당 권한이 활성화되면 Wi-Fi / Zigbee / 유선 및 기타 장치를 자동으로 검색 할 수 있습니다</string>
-  <string name="ty_activator_scan_device_tip_title">해당 권한이 켜져 있는 경우 블루투스/Wi-Fi/지그비 / 유선 등의 기기가 자동으로 감지됩니다.</string>
+  <string name="ty_activator_scan_device_tip_noble">주변 기기 검색 중 ...</string>
+  <string name="ty_activator_scan_device_tip_title">주변 기기 검색 중 ...</string>
   <string name="ty_activator_scaned_devices">기기 추가</string>
   <string name="ty_activator_search">탐색 시작</string>
   <string name="ty_activator_search_bleDevice">블루투스 기기 검색</string>
@@ -2050,9 +2083,15 @@
   <string name="ty_activator_select_gateway">게이트웨이를 선택하여 서브 기기를 추가합니다.</string>
   <string name="ty_activator_selected">선택 : %s</string>
   <string name="ty_activator_status_change_failure">설정을 변경하지 못했습니다. 네트워크를 확인하십시오.</string>
+  <string name="ty_activator_stop">종료</string>
+  <string name="ty_activator_stop_tip">프로세스를 종료하면, 장치 추가가 중지됩니다. 계속하시겠습니까?</string>
   <string name="ty_activator_sub_failure1">게이트웨이가 온라인인지 여부</string>
   <string name="ty_activator_sub_failure2">게이트웨이, 장치, 휴대 전화가 라우터에 가깝습니까?</string>
   <string name="ty_activator_tryAgain">절차대로 다시 시도하십시오.</string>
+  <string name="ty_activator_wifi_pwd_error_dialog_tip">잘못된 비밀번호. 다시 시도해 보십시오.</string>
+  <string name="ty_activator_wifichannel_activation">총 %1$s 장치 및 %2$s 활성화됨</string>
+  <string name="ty_activator_wifichannel_description">%s 장치가 활성화됩니다. 활성화 후 원격 제어 및 장치 공유를 활성화합니다.</string>
+  <string name="ty_activator_wifichannel_title">장치 활성화</string>
   <string name="ty_add_auto_button">\" 자동 실행 \" 추가</string>
   <string name="ty_add_automatic_desc">날씨, 기기 상태 및 시간과 같은 조건에 따라 자동으로 실행됩니다.</string>
   <string name="ty_add_blue_device_permission_title">블루투스 기기를 추가하려면 권한을 허용하십시오.</string>
@@ -2128,7 +2167,7 @@
   <string name="ty_ap_error_description">기기 연결에 실패했습니다. 도움말 확인 후 재시도 하십시오.</string>
   <string name="ty_ap_error_title">기기 연결 에러</string>
   <string name="ty_app_siganature_illegal">현재 설치 소스가 안전하지 않습니다. 공식 애플리케이션 스토어로 이동하여 다시 다운로드하십시오.</string>
-  <string name="ty_app_upgrade_tips">현재 버전은 해당 기기를 지원하지 않습니다.\n 앱을 업그레이드 하십시오.</string>
+  <string name="ty_app_upgrade_tips">현재 버전은 이 장치를 지원하지 않습니다.\n앱을 업데이트하려면 앱 마켓으로 이동하십시오.</string>
   <string name="ty_app_watch_cancel_tips">저장하시겠습니까?</string>
   <string name="ty_app_watch_device_empty">기기가 없습니다.</string>
   <string name="ty_app_watch_device_enabled">기기</string>
@@ -2143,6 +2182,7 @@
   <string name="ty_app_watch_title">시계</string>
   <string name="ty_app_watch_url_instructions">애플 워치 사용 설명</string>
   <string name="ty_arrive_or_leave">도착/출발</string>
+  <string name="ty_auth_management">권한 관리</string>
   <string name="ty_authorize_cancel">승인 취소</string>
   <string name="ty_authorize_failed">승인 실패</string>
   <string name="ty_auto_empty_tip">날씨, 기기 상태 및 시간 등의 조건에 따라 자동으로 실행됩니다.</string>
@@ -2161,6 +2201,12 @@
   <string name="ty_ble_device">블루투스 기기</string>
   <string name="ty_ble_permission_tip">위치 접근 권한이 없습니다. 블루투스 기기를 연결할 수 없습니다.</string>
   <string name="ty_ble_scan_mesh">블루투스 메쉬 기기X</string>
+  <string name="ty_ble_unlock_not_connect">Bluetooth 장치에 연결할 수 없습니다.</string>
+  <string name="ty_ble_unlock_publish_dps_not_response">Bluetooth 장치가 응답하지 않습니다.</string>
+  <string name="ty_ble_unlock_rssi_mismatch">Bluetooth 신호가 약합니다. 감도를 높이십시오.</string>
+  <string name="ty_ble_unlock_timeout">Bluetooth 장치를 찾을 수 없습니다.</string>
+  <string name="ty_bluetooth_activate_waiting">Bluetooth 활성화를 기다리는 중</string>
+  <string name="ty_bluetooth_activating">Bluetooth 활성화</string>
   <string name="ty_bluetooth_device">싱글 노드 블루투스 기기</string>
   <string name="ty_bluetooth_mesh_device">블루투스 메쉬 기기</string>
   <string name="ty_cache_cleaner">캐시 삭제</string>
@@ -2172,9 +2218,11 @@
   <string name="ty_change_gesture">패턴 암호 수정</string>
   <string name="ty_change_login_keyword">비밀번호 수정</string>
   <string name="ty_choose_action">실행 작업 선택</string>
+  <string name="ty_choose_device_tip">장치 선택</string>
   <string name="ty_choose_exe_secene">\"원클릭 실행\" 선택</string>
   <string name="ty_choose_sub_device_with_gateway">게이트웨이와 공유되는 하위 장치를 선택하십시오.</string>
   <string name="ty_choose_touch_smart">\"자동 실행 \" 시나리오 선택</string>
+  <string name="ty_cloud_app">클라우드 개발 프로젝트</string>
   <string name="ty_config">설정</string>
   <string name="ty_config_bluetooth_dev">블루투스 기기</string>
   <string name="ty_config_complete_info">즉시 완벽</string>
@@ -2216,6 +2264,12 @@
   <string name="ty_current_bind_phone_tip">현재 연결된 계정 :</string>
   <string name="ty_custom_member_contact_manager">홈 설정&gt; 홈 구성원 권한 사용을 위해 \n 관리자에게 문의하십시오.</string>
   <string name="ty_custom_member_not_operate">사용자가 지정한 구성원은 제어할 수 없습니다.</string>
+  <string name="ty_dark_mode">다크 모드</string>
+  <string name="ty_dark_mode_description">사용으로 설정되면, 앱은 해당 시스템 설정에 맞게 다크 모드를 켜거나 끕니다.</string>
+  <string name="ty_dark_mode_follow_system">시스템</string>
+  <string name="ty_dark_mode_off">끄기</string>
+  <string name="ty_dark_mode_on">켜기</string>
+  <string name="ty_dark_mode_sure_continue">이 변경 사항을 적용하려면 앱을 다시 시작해야 합니다. 계속하시겠습니까?</string>
   <string name="ty_debug_dns">DNS 분석 시간</string>
   <string name="ty_debug_language_fetch_localize">업데이트 된 항목 가져 오기</string>
   <string name="ty_debug_language_fetch_subtitle">매번 최대 200 개의 항목 변경 사항을 미리 볼 수 있습니다</string>
@@ -2262,7 +2316,12 @@
   <string name="ty_device_bind_set_multi_control">멀티제어 그룹이 설정되었습니다.</string>
   <string name="ty_device_bind_status_disable">꺼짐</string>
   <string name="ty_device_bind_status_enable">켜졌습니다.</string>
+  <string name="ty_device_channels_of_communicationl">채널</string>
   <string name="ty_device_connect">기기를 연결합니다.</string>
+  <string name="ty_device_connect_cloud_activation">클라우드 연결</string>
+  <string name="ty_device_connect_cloud_activation_failed">실패함</string>
+  <string name="ty_device_connect_cloud_activation_success">성공함</string>
+  <string name="ty_device_connect_cloud_activation_tip">클라우드 활성화 후 원격 제어 및 장치 공유 활성화</string>
   <string name="ty_device_crash_tips">잠시 후 다시 시도하십시오.</string>
   <string name="ty_device_detail_close">끄기</string>
   <string name="ty_device_detail_close_sub_device_tip">추가된 리모컨을 홈에 표시하지 않습니다.</string>
@@ -2294,6 +2353,7 @@
   <string name="ty_device_select_icon_save">저장</string>
   <string name="ty_device_shortcut_create_dialog_tip">추가에 실패하면 시스템 설정으로 이동하여 %s에 대한 \"바탕 화면 바로 가기 만들기\"권한을 설정하십시오.</string>
   <string name="ty_device_sort_delete_max">한 번에 최대 9 개 항목 선택</string>
+  <string name="ty_device_ssid_empty">Wi-Fi 이름 입력</string>
   <string name="ty_device_sub_device_migrate">하위 장치 마이그레이션</string>
   <string name="ty_device_to_add">추가</string>
   <string name="ty_device_to_add_retry">다시 시도</string>
@@ -2324,6 +2384,8 @@
   <string name="ty_ej_device_switch_off_tips">당신을 위해 폐쇄되었습니다, 당신의 손끝에 똑똑합니다!</string>
   <string name="ty_ej_device_switch_on_tips">당신을 위해 문을 열었습니다. 스마트 한 삶을 즐기세요!</string>
   <string name="ty_encourage_error_info">엔터프라이즈 패키지는 이 기능을 지원하지 않습니다.</string>
+  <string name="ty_energy_guide_tip">전기, 수도, 가스의 소비량 데이터를 봅니다.</string>
+  <string name="ty_energy_manager">집 에너지 관리</string>
   <string name="ty_enter_keyword_tip">숫자, 문자를 포함하여 6~20자 이내로 입력해야 합니다.</string>
   <string name="ty_enter_scene_name">\"원클릭 실행\" 시나리오 이름을 입력하십시오</string>
   <string name="ty_equipment_information">기기 정보</string>
@@ -2351,6 +2413,9 @@
   <string name="ty_ez_status_share">가족 구성원과 공유</string>
   <string name="ty_ez_status_success">추가 완료</string>
   <string name="ty_ez_wifi_title">Wi-Fi 비밀번호를 입력하십시오.</string>
+  <string name="ty_family_complete_family_tip">새 구성원을 초대하기 전에 자택 정보를 작성해 주십시오.</string>
+  <string name="ty_family_go_complete">이동</string>
+  <string name="ty_family_guide_skip_tip">홈 관리에서 홈을 작성합니다.</string>
   <string name="ty_family_manager">홈 관리</string>
   <string name="ty_firmware_auto_upgrade_switch_desc">자동 업그레이드 기능을 활성화하면 장치가 자동으로 업그레이드됩니다. 중요한 기능 업그레이드는 여전히 확인해야합니다.</string>
   <string name="ty_firmware_auto_upgrade_switch_open_tip">전원을 켠 후 기본 비활성 기간 동안 장치가 업그레이드되며 업그레이드 프로세스 중에는 잠시 오프라인 상태가됩니다.</string>
@@ -2395,9 +2460,16 @@
   <string name="ty_gprs_enter">수동으로 기기 번호를 입력하십시오.</string>
   <string name="ty_gprs_locate">위치 접근 권한이 비활성화 되어 있습니다.</string>
   <string name="ty_gprs_scanning">QR코드를 스캔합니다.</string>
+  <string name="ty_has_unbind">연결 해제됨</string>
+  <string name="ty_health_center">건강 센터</string>
   <string name="ty_homeKit_info">HomeKit 정보</string>
+  <string name="ty_home_Intelligent_recommendation">추천</string>
+  <string name="ty_home_activator_numtip">%s 장치가 활성화됩니다.</string>
+  <string name="ty_home_activator_numtip_description">클라우드 활성화 후 원격 제어 및 장치 공유 활성화</string>
+  <string name="ty_home_activator_success">성공함</string>
   <string name="ty_home_default_home_name">마이 홈</string>
   <string name="ty_home_device_over_limit">장치가 가득 찼습니다</string>
+  <string name="ty_home_dont_show_again">다시 표시하지 않음</string>
   <string name="ty_home_empty_more">더 알아보기</string>
   <string name="ty_home_empty_tip">기기 없음</string>
   <string name="ty_home_nav_family">홈</string>
@@ -2422,10 +2494,19 @@
   <string name="ty_homekit_binded">바인딩됨</string>
   <string name="ty_homekit_device">HomeKit 장치</string>
   <string name="ty_homekit_device_binding">“%s” 바인딩</string>
+  <string name="ty_homekit_device_empty">HomeKit 장치 없음</string>
   <string name="ty_homekit_unbindable">바인딩할 수 없음</string>
   <string name="ty_homekit_unbindable_tips">장치에 연결하지 못했습니다. 장치와 동일한 Wi-Fi에 휴대 전화를 연결하고 목록을 새로 고친 후 다시 시도하십시오.</string>
   <string name="ty_iOS_app_share">iOS 앱 다운로드 링크 공유</string>
   <string name="ty_iOS_share_url">https://itunes.apple.com/us/app/tuyasmart/id1034649547?mt=8</string>
+  <string name="ty_iap_can_not_pay">구매가 허용되지 않습니다.</string>
+  <string name="ty_iap_is_gray_test">베타 버전은 Apple Pay를 지원하지 않습니다.</string>
+  <string name="ty_iap_jailbroken">탈옥된 기기에서는 구매가 허용되지 않습니다.</string>
+  <string name="ty_iap_no_products">구매할 수 있는 항목이 없습니다.</string>
+  <string name="ty_iap_pay_canceled">결제 취소</string>
+  <string name="ty_iap_pay_failed">결제가 실패했습니다.</string>
+  <string name="ty_iap_pay_has_other_payment">마지막 거래를 처리하는 중입니다. 나중에 다시 시도하십시오.</string>
+  <string name="ty_iap_pay_success">결제가 완료되었습니다.</string>
   <string name="ty_igonre_tip">이 프롬프트를 다시 표시하지 마십시오</string>
   <string name="ty_illegal_dp_data">불법 DP 데이터</string>
   <string name="ty_input_email">우편함</string>
@@ -2437,6 +2518,7 @@
   <string name="ty_join_testflight">베타 테스트 참가</string>
   <string name="ty_keep_alive_notification_title">장비가 작동 중입니다.</string>
   <string name="ty_keep_power_working">기기의 전원을 끄지 마십시오.</string>
+  <string name="ty_light_mode">일반 모드</string>
   <string name="ty_lightskin_edit_info">자료 수정</string>
   <string name="ty_load_error">불러오기에 실패했습니다.</string>
   <string name="ty_loading">로딩중…</string>
@@ -2457,6 +2539,7 @@
   <string name="ty_login_register">회원가입</string>
   <string name="ty_login_register_nostate">계정의 국가와 지역을 선택하십시오.</string>
   <string name="ty_login_sms">SMS로 로그인</string>
+  <string name="ty_login_sure">로그아웃하시겠습니까?</string>
   <string name="ty_login_thirdparty">전화 알림 및 SMS 알림 서비스를 활성화했습니다. 전화 번호를 변경 한 후 \"전화 알림 설정\"에서 새 전화 번호를 추가하세요. 전화 번호를 변경하면 구매 한 SMS 알림 서비스를 사용할 수 없게됩니다. 전화 번호를 계속 변경 하시겠습니까?</string>
   <string name="ty_login_thirdparty_call">전화 알림 서비스를 활성화했습니다. 전화 번호 변경 후 \"전화 알림 설정\"에서 새 전화 번호를 추가하세요.</string>
   <string name="ty_login_thirdparty_sms">SMS 알림 서비스를 활성화했습니다. 휴대폰 번호를 변경하면 구매 한 SMS 알림 서비스를 사용할 수 없게됩니다. 계속해서 휴대폰 번호를 변경 하시겠습니까?</string>
@@ -2466,6 +2549,14 @@
   <string name="ty_login_wechat">위챗</string>
   <string name="ty_login_youremail">당신의 사서함</string>
   <string name="ty_login_yourmobile">당신의 휴대폰 번호</string>
+  <string name="ty_logoff_conform">삭제</string>
+  <string name="ty_logoff_continue">계속</string>
+  <string name="ty_logoff_forever">이 계정의 모든 사용자 데이터가 영구히 삭제됩니다.</string>
+  <string name="ty_logoff_getcode">\"인증 코드 받기\"를 클릭하면 귀하의 %1$s： %2$s(으)로 전송됩니다.</string>
+  <string name="ty_logoff_password">완료하려면 바인딩된 계정 의 비밀번호를 입력하십시오.</string>
+  <string name="ty_logoff_query_sure">계정을 삭제하시겠습니까?</string>
+  <string name="ty_logoff_setpassword_skip">건너뛰기</string>
+  <string name="ty_logoff_title">계정 삭제</string>
   <string name="ty_logout_loading">안전하게 종료 중입니다, 기다려주십시오.</string>
   <string name="ty_mac_addr">Mac 주소</string>
   <string name="ty_make_call">발신</string>
@@ -2630,9 +2721,11 @@
   <string name="ty_panel_device_tz">기기 시간대</string>
   <string name="ty_panel_group_confirm_remove">해당 그룹을 삭제하시겠습니까?</string>
   <string name="ty_panel_share_group">그룹 공유</string>
+  <string name="ty_password_bind">바인딩된 %s 또는 비밀번호를 통해 계정에 로그인할 수 있습니다.</string>
   <string name="ty_password_regular1">문자와 숫자를 포함하여 6-20 자</string>
   <string name="ty_password_regular2">대문자 및 소문자 및 숫자를 포함하여 8-20 자</string>
   <string name="ty_password_regular3">대문자 및 소문자, 숫자 및 특수 문자를 포함하여 8-20 자</string>
+  <string name="ty_password_skip">비밀번호를 설정하려면 계정 및 보안 &gt; 로그인 비밀번호 변경으로 이동하십시오.</string>
   <string name="ty_permission_tip_contact">휴대폰의 연락처에 접근하지 못했습니다. \"설정 - 애플리케이션 - %s - 권한\"에서 휴대폰의 연락처에 접근 가능하도록 허용하십시오.</string>
   <string name="ty_permission_tip_location">휴대폰의 위치 정보 권한 승인</string>
   <string name="ty_permission_tip_phone_state">휴대폰 정보에 접근합니다.</string>
@@ -2660,6 +2753,7 @@
   <string name="ty_refresh_footer_pulling">버튼을 눌렀다 떼면 더 많은 데이터를 로드할 수 있습니다.</string>
   <string name="ty_refresh_footer_refreshing">더 많은 데이터를 불러옵니다.</string>
   <string name="ty_remove">제거</string>
+  <string name="ty_remove_bind">연결 해제</string>
   <string name="ty_remove_binding">연결 해제</string>
   <string name="ty_remove_binding_and_clean_data">연결 해제하고 모든 데이터를 삭제합니다.</string>
   <string name="ty_remove_out_family">%s 홈에서 삭제되었으며 더 이상 해당 홈의 제품들과 스마트 시나리오에 접속할 수 없습니다.</string>
@@ -2668,6 +2762,13 @@
   <string name="ty_report_pairing_issue">네트워킹 문제 보고</string>
   <string name="ty_request_fail_to_open">위치 정보 접근에 실패했습니다. 설정에서 위치 정보 접근을 승인하십시오.</string>
   <string name="ty_request_location_permission_fail">위치 정보를 가져오는데 실패했습니다. 위치 정보 접근을 허용하십시오.</string>
+  <string name="ty_review_device_control_success_title">장치 제어에 성공했습니다.</string>
+  <string name="ty_review_item_cancel">나중에</string>
+  <string name="ty_review_item_comment">좋아요</string>
+  <string name="ty_review_item_feedback">싫어요</string>
+  <string name="ty_review_operate_success_hint">앱 사용 경험은 어떠셨나요?</string>
+  <string name="ty_review_scene_add_success_title">장면을 성공적으로 추가했습니다.</string>
+  <string name="ty_review_value_add_service_success_title">해당 구매가 완료되었습니다.</string>
   <string name="ty_room_none_permission_tip">홈 설정&gt; 홈 구성원 에서 권한을 활성화하려면 관리자에게 문의하십시오.</string>
   <string name="ty_room_none_permission_title">일반 구성원은 사용할 수 없는 기능입니다.</string>
   <string name="ty_save_room_suc">저장되었습니다.</string>
@@ -2799,6 +2900,7 @@
   <string name="ty_testflight_content">베타 테스터로 귀하를 초대합니다. 베타 버전 앱을 다운로드하여 새로운 기능을 경험해 보십시오.</string>
   <string name="ty_testflight_join">참가</string>
   <string name="ty_thanks">귀하의 지원에 감사드립니다</string>
+  <string name="ty_third_account_bind">타사 계정 연결</string>
   <string name="ty_thirdparty_no_device">지원하는 기기가 없습니다.</string>
   <string name="ty_thirdparty_no_device_tip">지원되는 제품을 추가하거나, 판매처에 문의 바랍니다.</string>
   <string name="ty_timer_success_notification">알림</string>
@@ -2808,6 +2910,16 @@
   <string name="ty_touch_start">조건에 맞으면 실행</string>
   <string name="ty_touch_stop">실행 후 중지</string>
   <string name="ty_tp_timer_zone_remian">GMT %s 시간대 설정 사용중입니다.</string>
+  <string name="ty_unbind_alert_message">연결 해제 후 클라우드 개발 프로젝트 관리자는 귀하의 계정으로 장치를 관리하거나 제어할 수 없습니다.</string>
+  <string name="ty_unbind_alert_title">연결을 해제하시겠습니까?</string>
+  <string name="ty_unbind_confirm">연결 해제</string>
+  <string name="ty_unbind_limit">WeChat 계정에 등록했으며 지금 연결을 해제할 수 없습니다.</string>
+  <string name="ty_unbind_line_limit">LINE 계정으로 등록하셨기 때문에 지금은 연결 해제할 수 없습니다.</string>
+  <string name="ty_unbind_line_sure">LINE 연결을 해제하시겠습니까?</string>
+  <string name="ty_unbind_line_sure_message">LINE 계정이 연결 해제된 경우 %s 로그인에 사용할 수 없습니다.</string>
+  <string name="ty_unbind_success">성공적으로 연결이 해제되었습니다.</string>
+  <string name="ty_unbind_sure">WeChat 연결을 해제하시겠습니까?</string>
+  <string name="ty_unbind_sure_message">WeChat 계정이 연결 해제된 경우 해당 계정을 사용하여 로그인할 수 없습니다. %s</string>
   <string name="ty_update_family_info">홈 정보가 업데이트 되었습니다.</string>
   <string name="ty_update_name">이름 수정</string>
   <string name="ty_update_scene">\"원클릭 실행\" 수정</string>
@@ -2871,6 +2983,7 @@
   <string name="user_complete_info">계정 정보 개선</string>
   <string name="user_exists">해당 계정은 이미 존재합니다.</string>
   <string name="user_exit_experience">출구 경험</string>
+  <string name="user_logining">로딩중..</string>
   <string name="user_share_detail">상세정보 공유</string>
   <string name="user_share_device_list">기기가 공유되었습니다.</string>
   <string name="user_share_oren">공유하기</string>

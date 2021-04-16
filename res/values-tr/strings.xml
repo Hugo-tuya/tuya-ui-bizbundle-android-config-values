@@ -124,7 +124,7 @@
   <string name="cancel_tip">Tamam</string>
   <string name="cannot_input_empty_string">Giriş boş olamaz</string>
   <string name="cannot_load_image">“Resim yüklenemiyor!”</string>
-  <string name="cant_share_reason">Bluetooth Mesh cihazı, ZigBee cihazı ve kızılötesi cihaz için tek cihaz paylaşımı geçici olarak desteklenmiyor. Ortak kullanım için aynı anda ilgili cihazların paylaşılması gerekiyor.</string>
+  <string name="cant_share_reason">Bluetooth Mesh cihazı, Zigbee cihazı ve kızılötesi cihaz için tek cihaz paylaşımı geçici olarak desteklenmiyor. Ortak kullanım için aynı anda ilgili cihazların paylaşılması gerekiyor.</string>
   <string name="check_family">Aile görüntüle</string>
   <string name="check_firmware_update">Ürün yazılımı güncellemelerini denetle</string>
   <string name="check_update">Ürün yazılımı yükseltmelerini denetle</string>
@@ -589,6 +589,7 @@
   <string name="ipc_enter_album_tips_ios">Screenshot has been saved in a local album</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Devriye modunda saha eklenemez.</string>
   <string name="ipc_errmsg_add_memory_point_max">Saha sayısı üst sınıra ulaştı.</string>
+  <string name="ipc_errmsg_ap_timeout">Yanıt zaman aşımı</string>
   <string name="ipc_errmsg_awaken_without_permission">Paylaşılan donanım, işletme izniniz yok</string>
   <string name="ipc_errmsg_change_definition_failed">Tanım başlatma başarısız</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">Saha otomatik devriyesi en az 2 favori sahaya ihtiyaç duyuyor.</string>
@@ -1228,6 +1229,7 @@
   <string name="service_doc_name">#</string>
   <string name="service_running_tips_content">Arka plan hizmeti kullanılıyor</string>
   <string name="service_running_tips_title">Arka planda çalışıyor</string>
+  <string name="service_url">#</string>
   <string name="set_center_account">Hesap konumu</string>
   <string name="set_family_manage">Aile yöneticisi olarak ayarla</string>
   <string name="set_news">Anlık Bildirim</string>
@@ -1896,6 +1898,7 @@
   <string name="upgrading">Yükseltiliyor…</string>
   <string name="upload_log_tip">Lütfen ağ sorunlarınızı daha iyi çözmemize yardımcı olması için günlükleri yükleyin.</string>
   <string name="user_exists">Bu hesap önceden kaydedilmiş</string>
+  <string name="user_logining">Yükleniyor…</string>
   <string name="user_share_detail">Paylaşım Detayları</string>
   <string name="user_share_device_list">Onunla paylaşılan cihaz(lar)</string>
   <string name="user_share_oren">Paylaşılacak kişi:</string>
@@ -1918,7 +1921,6 @@
   <string name="voice_time_error">Özür dilerim, ne dediğinizi anlayamıyorum</string>
   <string name="wait_reply">Geri bildiriminiz için teşekkürler. Kısa sürede sizinle iletişime geçeceğiz</string>
   <string name="webview_reload">Tekrar yükle</string>
-  <string name="wednesday">Çarşamba</string>
   <string name="weekday">İş günü</string>
   <string name="weekend">Hafta sonu</string>
   <string name="widget_CFBundleDisplayName">Cihaz kısayolu kontrolü</string>

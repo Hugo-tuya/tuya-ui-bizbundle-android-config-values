@@ -776,6 +776,7 @@
   <string name="ipc_enter_album_tips_ios">Екранната снимка е запазена в твоя албум</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Обектът не може да бъде добавен в патрулен режим.</string>
   <string name="ipc_errmsg_add_memory_point_max">Броят на добавените Обекти е достигнал максимума. Моля изтрийте един или повече обекти.</string>
+  <string name="ipc_errmsg_ap_timeout">Времето за отговор е изтекло</string>
   <string name="ipc_errmsg_awaken_without_permission">Не е разрешено ползването на тази функция.</string>
   <string name="ipc_errmsg_camera_mode_lowbat">Слаба батерия, моля заредете устройството и опитайте отново.</string>
   <string name="ipc_errmsg_change_definition_failed">Превключването на дефиницията не бе успешно</string>
@@ -2424,6 +2425,7 @@
   <string name="upgrading">Обновяване...</string>
   <string name="upload_log_tip">Моля, качете логовете, за да Ви помогнем да разрешите проблемите си в мрежата.</string>
   <string name="user_exists">Този профил вече е регистриран</string>
+  <string name="user_logining">Зареждане...</string>
   <string name="user_share_detail">Детайли за споделяне</string>
   <string name="user_share_device_list">Споделени Устройства</string>
   <string name="user_share_oren">Сподели с</string>
@@ -2446,7 +2448,6 @@
   <string name="voice_time_error">Съжалявам, но не разбрах какво казахте.</string>
   <string name="wait_reply">Благодарим Ви за обратната връзка. Скоро ще се свържем с Вас</string>
   <string name="webview_reload">Презареди</string>
-  <string name="wednesday">Срядя</string>
   <string name="weekday">Работни дни</string>
   <string name="weekend">Уикенд</string>
   <string name="which_room_has_device">Стаи:</string>

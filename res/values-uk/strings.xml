@@ -123,7 +123,7 @@
   <string name="cancel_tip">Зрозуміло</string>
   <string name="cannot_input_empty_string">Поле вводу не може бути порожнім</string>
   <string name="cannot_load_image">«Не вдається завантажити зображення!»</string>
-  <string name="cant_share_reason">Спільне використання одного пристрою тимчасово не підтримується для мережних пристроїв Bluetooth, пристроїв ZigBee та інфрачервоних пристроїв. Для спільної роботи потрібно надати спільний доступ до своїх пристроїв одночасно.</string>
+  <string name="cant_share_reason">Спільне використання одного пристрою тимчасово не підтримується для мережних пристроїв Bluetooth, пристроїв Zigbee та інфрачервоних пристроїв. Для спільної роботи потрібно надати спільний доступ до своїх пристроїв одночасно.</string>
   <string name="check_family">Переглянути сім’ю</string>
   <string name="check_firmware_update">Перевірити наявність оновлення вбудованого ПЗ</string>
   <string name="check_update">Перевірити наявність версії вбудованого ПЗ</string>
@@ -520,6 +520,7 @@
   <string name="ipc_electric_title">Налаштування керування живленням</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Об’єкт не можна додати в режимі патрулювання.</string>
   <string name="ipc_errmsg_add_memory_point_max">Досягнуто максимальної кількості об’єктів</string>
+  <string name="ipc_errmsg_ap_timeout">Закінчився термін отримання відповіді</string>
   <string name="ipc_errmsg_awaken_without_permission">Устаткування спільного доступу, у вас немає дозволу на використання</string>
   <string name="ipc_errmsg_change_definition_failed">Не вдалося перемкнути визначення</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">Для режиму автоматичного патрулювання потрібно не менш ніж два бажані об’єкти.</string>
@@ -1729,6 +1730,7 @@
   <string name="upgrading">Оновлення...</string>
   <string name="upload_log_tip">Надішліть журнали, щоб допомогти нам краще розібратися з вашими проблемами щодо мережі.</string>
   <string name="user_exists">Цей обліковий запис вже зареєстровано</string>
+  <string name="user_logining">Завантаження...</string>
   <string name="user_share_detail">Інформація про спільний доступ</string>
   <string name="user_share_device_list">Пристрої, до яких йому надано спільний доступ</string>
   <string name="user_share_oren">Спільний доступ надано для</string>
@@ -1751,7 +1753,6 @@
   <string name="voice_time_error">На жаль, я не розумію, що ви говорите</string>
   <string name="wait_reply">Дякуємо за ваш відгук! Ми незабаром зв’яжемося з вами</string>
   <string name="webview_reload">Перезавантажити</string>
-  <string name="wednesday">Середа</string>
   <string name="weekday">Робочий день</string>
   <string name="weekend">Вихідний</string>
   <string name="widget_CFBundleDisplayName">Управління ярликом пристрою</string>

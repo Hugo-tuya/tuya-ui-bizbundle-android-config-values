@@ -645,6 +645,7 @@
   <string name="ipc_enter_album_tips_ios">Tangkapan layar telah tersimpan di album setempat</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Situs tidak bisa ditambahkan dalam mode patrol</string>
   <string name="ipc_errmsg_add_memory_point_max">Jumlah tambahan situs telah melebihi batas. Hapus satu situs atau lebih terlebih dahulu</string>
+  <string name="ipc_errmsg_ap_timeout">Waktu respon habis</string>
   <string name="ipc_errmsg_awaken_without_permission">Perangkat dibagikan. Anda tidak dapat mengoperasikannya</string>
   <string name="ipc_errmsg_change_definition_failed">Gagal mengubah definisi</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">Gagal untuk mengaktifkan patrol area karena yang ditambahkan tidak lebih dari 2 area.</string>
@@ -2102,6 +2103,7 @@
   <string name="upgrading">Upgrading...</string>
   <string name="upload_log_tip">Unggah log untuk membantu kami memecahkan masalah jaringan Anda dengan lebih baik.</string>
   <string name="user_exists">Akun ini ada</string>
+  <string name="user_logining">loading...</string>
   <string name="user_share_detail">Detail Berbagi</string>
   <string name="user_share_device_list">Perangkat dibagikan dengannya</string>
   <string name="user_share_oren">Berbagi dengan</string>
@@ -2124,7 +2126,6 @@
   <string name="voice_time_error">Maaf, Saya tidak mengerti apa yang anda baru katakan.</string>
   <string name="wait_reply">Terimakasih untuk tanggapan anda. Kami akan tanggapi segera.</string>
   <string name="webview_reload">Memuat kembali</string>
-  <string name="wednesday">Rabu.</string>
   <string name="weekday">Hari kerja</string>
   <string name="weekend">Akhir pekan</string>
   <string name="which_room_has_device">Ruangan:</string>

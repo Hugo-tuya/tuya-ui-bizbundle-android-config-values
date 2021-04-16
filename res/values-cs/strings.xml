@@ -123,7 +123,7 @@
   <string name="cancel_tip">Mám to</string>
   <string name="cannot_input_empty_string">Vstup nemůže být prázdný</string>
   <string name="cannot_load_image">Nelze načíst obrázek!</string>
-  <string name="cant_share_reason">Sdílení jednoho zařízení není dočasně podporováno pro zařízení Bluetooth Mesh, zařízení ZigBee a infračervené zařízení. Je nutné sdílet příslušná zařízení současně s běžným provozem.</string>
+  <string name="cant_share_reason">Sdílení jednoho zařízení není dočasně podporováno pro zařízení Bluetooth Mesh, zařízení Zigbee a infračervené zařízení. Je nutné sdílet příslušná zařízení současně s běžným provozem.</string>
   <string name="check_family">Zobrazit rodinu</string>
   <string name="check_firmware_update">Zkontrolujte aktualizaci firmwaru</string>
   <string name="check_update">Zkontrolujte aktualizaci firmwaru</string>
@@ -525,6 +525,7 @@
   <string name="ipc_electric_title">Nastavení správy napájení</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Místo nelze přidat v režimu hlídky.</string>
   <string name="ipc_errmsg_add_memory_point_max">Počet míst dosáhl horní hranice.</string>
+  <string name="ipc_errmsg_ap_timeout">Časový limit pro odpověd vypšel</string>
   <string name="ipc_errmsg_awaken_without_permission">Sdílené zařízení, nemáte žádné oprávnění k provozu</string>
   <string name="ipc_errmsg_change_definition_failed">Nepodařilo se přepnout definici</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">Místa automatického hlídání potřebují alespoň 2 oblíbené stránky.</string>
@@ -1108,6 +1109,7 @@
   <string name="service_agreement">Smlouva o poskytování služeb</string>
   <string name="service_running_tips_content">Aktuálně běží služby na pozadí</string>
   <string name="service_running_tips_title">Běží na pozadí</string>
+  <string name="service_url">#</string>
   <string name="set_center_account">Lokace účtu</string>
   <string name="set_family_manage">Nastavit jako správce rodiny</string>
   <string name="set_news">Oznámení</string>
@@ -1741,6 +1743,7 @@
   <string name="upgrading">Aktualizace ...</string>
   <string name="upload_log_tip">Nahrajte prosím logy, které nám pomohou lépe vyřešit vaše síťové problémy.</string>
   <string name="user_exists">Tento účet již byl zaregistrován</string>
+  <string name="user_logining">načítání...</string>
   <string name="user_share_detail">Podrobnosti o sdílení</string>
   <string name="user_share_device_list">Zařízení s ním sdílená</string>
   <string name="user_share_oren">Sdílet s</string>

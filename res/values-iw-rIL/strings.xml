@@ -599,6 +599,7 @@
   <string name="scene_set_start_time">קבע זמן התחלה</string>
   <string name="search">חיפוש</string>
   <string name="select_more">בחר</string>
+  <string name="service_url">#</string>
   <string name="set_center_account">מיקום חשבון</string>
   <string name="set_family_manage">קבע בתור מנהל הבית</string>
   <string name="set_news">עדכוני הודעות</string>
@@ -1123,7 +1124,6 @@
   <string name="voice_time_error">אני מצטער, אני לא יכול להבין את מה שאמרת</string>
   <string name="wait_reply">המשוב התקבל, ואנו נחזור אליכם בהקדם האפשרי</string>
   <string name="webview_reload">טען מחדש</string>
-  <string name="wednesday">יום רביעי</string>
   <string name="weekday">יום עבודה</string>
   <string name="weekend">סופ&amp;quot;ש</string>
   <string name="widget_loading">Loading</string>

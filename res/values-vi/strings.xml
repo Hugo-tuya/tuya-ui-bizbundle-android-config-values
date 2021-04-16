@@ -157,7 +157,7 @@
   <string name="cancel_tip">Tôi đã hiểu</string>
   <string name="cannot_input_empty_string">Vui lòng nhập nội dung</string>
   <string name="cannot_load_image">\"Không thể tải hình ảnh\"</string>
-  <string name="cant_share_reason">Các thiết bị Bluetooth Mesh, thiết bị ZigBee và thiết bị hồng ngoại hiện không hỗ trợ chia sẻ riêng lẻ từng thiết bị. Bạn cần chia sẻ các thiết bị liên quan cùng một lúc để chúng hoạt động bình thường.</string>
+  <string name="cant_share_reason">Các thiết bị Bluetooth Mesh, thiết bị Zigbee và thiết bị hồng ngoại hiện không hỗ trợ chia sẻ riêng lẻ từng thiết bị. Bạn cần chia sẻ các thiết bị liên quan cùng một lúc để chúng hoạt động bình thường.</string>
   <string name="check_family">Xem Nhà</string>
   <string name="check_firmware_update">Kiểm tra nâng cấp firmware</string>
   <string name="check_update">Kiểm tra nâng cấp firmware</string>
@@ -783,6 +783,7 @@
   <string name="ipc_enter_album_tips_ios">Ảnh chụp màn hình đã được lưu vào album điện thoại</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Thiết bị này hiện đang ở chế độ tuần tra và không thể thêm địa điểm.</string>
   <string name="ipc_errmsg_add_memory_point_max">Số lượng địa điểm đã tối đa, vui lòng xóa trước khi thêm lại.</string>
+  <string name="ipc_errmsg_ap_timeout">Hết thời gian phản hồi</string>
   <string name="ipc_errmsg_awaken_without_permission">Bạn không được phép sử dụng chức năng này.</string>
   <string name="ipc_errmsg_camera_mode_lowbat">Pin yếu, vui lòng sạc thiết bị và thử lại</string>
   <string name="ipc_errmsg_change_definition_failed">Không thể chuyển đổi độ phân giải</string>
@@ -2443,6 +2444,7 @@
   <string name="upgrading">Đang cập nhật …</string>
   <string name="upload_log_tip">Vui lòng tải lên nhật ký để giúp chúng tôi giải quyết vấn đề mạng của bạn tốt hơn.</string>
   <string name="user_exists">Tài khoản này tồn tại</string>
+  <string name="user_logining">Đang tải…</string>
   <string name="user_share_detail">Chia sẻ chi tiết</string>
   <string name="user_share_device_list">Thiết bị được chia sẻ</string>
   <string name="user_share_oren">Chia sẻ với</string>
@@ -2465,7 +2467,6 @@
   <string name="voice_time_error">Xin lỗi, tôi không hiểu những gì bạn vừa nói</string>
   <string name="wait_reply">Chúng tôi đã nhận được phản hồi của bạn. Chúng tôi sẽ trả lời bạn sớm nhất có thể.</string>
   <string name="webview_reload">Tải lại</string>
-  <string name="wednesday">Thứ tư</string>
   <string name="weekday">Ngày làm việc</string>
   <string name="weekend">Cuối tuần</string>
   <string name="which_room_has_device">Phòng:</string>

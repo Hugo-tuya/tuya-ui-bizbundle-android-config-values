@@ -520,6 +520,7 @@
   <string name="ipc_electric_title">การตั้งค่าการจัดการพลังงาน</string>
   <string name="ipc_errmasg_add_memory_point_cruise">ไม่สามารถเพิ่มไซต์ลงในโหมดลาดตระเวน</string>
   <string name="ipc_errmsg_add_memory_point_max">จำนวนสถานที่ถึงขีดจำกัดสูงสุดแล้ว</string>
+  <string name="ipc_errmsg_ap_timeout">หมดเวลาการตอบสนอง</string>
   <string name="ipc_errmsg_awaken_without_permission">อุปกรณ์ที่แชร์ คุณไม่ได้รับอนุญาตให้ใช้งาน</string>
   <string name="ipc_errmsg_change_definition_failed">สับเปลี่ยนคำนิยามล้มเหลว</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">โหมดลาดตระเวนสถานที่อัตโนมัติจำเป็นต้องมีสถานที่โปรด 2 แห่ง</string>
@@ -1106,6 +1107,7 @@
   <string name="service_agreement">ข้อตกลงการให้บริการ</string>
   <string name="service_running_tips_content">มีการใช้งานบริการในพื้นหลัง</string>
   <string name="service_running_tips_title">ทำงานในพื้นหลัง</string>
+  <string name="service_url">#</string>
   <string name="set_center_account">ตำแหน่งบัญชี</string>
   <string name="set_family_manage">ตั้งเป็นผู้ดูแลระบบของครอบครัว</string>
   <string name="set_news">การแจ้งเตือนแบบพุช</string>
@@ -1728,6 +1730,7 @@
   <string name="upgrading">กำลังอัปเกรด...</string>
   <string name="upload_log_tip">โปรดอัปโหลดบันทึกเพื่อช่วยให้เราแก้ไขปัญหาทางเครือข่ายของคุณได้ดียิ่งขึ้น</string>
   <string name="user_exists">บัญชีนี้ลงทะเบียนไว้แล้ว</string>
+  <string name="user_logining">กำลังโหลด...</string>
   <string name="user_share_detail">รายละเอียดการแชร์</string>
   <string name="user_share_device_list">อุปกรณ์ที่แชร์กับเขา</string>
   <string name="user_share_oren">แชร์กับ</string>
@@ -1750,7 +1753,6 @@
   <string name="voice_time_error">ขออภัย ฉันไม่เข้าใจในสิ่งที่คุณพูด</string>
   <string name="wait_reply">ขอขอบคุณสำหรับข้อติชม เราจะตอบกลับในไม่ช้า</string>
   <string name="webview_reload">โหลด</string>
-  <string name="wednesday">วันพุธ</string>
   <string name="weekday">วันทำงาน</string>
   <string name="weekend">สุดสัปดาห์</string>
   <string name="widget_CFBundleDisplayName">(วิดเจ็ตอุปกรณ์)</string>

@@ -134,7 +134,7 @@
   <string name="cancel_tip">Ξέρω</string>
   <string name="cannot_input_empty_string">Παρακαλούμε εισάγετε περιεχόμενο</string>
   <string name="cannot_load_image">«» Δεν είναι δυνατή η φόρτωση της εικόνας! «&amp;quot;</string>
-  <string name="cant_share_reason">Συσκευή πλέγματος Bluetooth, συσκευή ZigBee, ή συσκευή υπερύθρων δεν μπορεί να διαμοιραστεί μόνη της. Αυτές οι συσκευές μπορούν να διαμοιραστούν μόνο με τη πύλη</string>
+  <string name="cant_share_reason">Συσκευή πλέγματος Bluetooth, συσκευή Zigbee, ή συσκευή υπερύθρων δεν μπορεί να διαμοιραστεί μόνη της. Αυτές οι συσκευές μπορούν να διαμοιραστούν μόνο με τη πύλη</string>
   <string name="check_family">Έλεγχος οικογένειας</string>
   <string name="check_firmware_update">Ελέγξτε την αναβάθμιση του firmware</string>
   <string name="check_update">Ελέγξτε την αναβάθμιση του firmware</string>
@@ -610,6 +610,7 @@
   <string name="ipc_enter_album_tips_ios">Φωτογραφία αντιγράφου της οθόνης έχει αποθηκευτεί σε ένα τοπικό άλμπουμ</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Δεν μπορεί να προστεθεί τοποθεσία σε λειτουργία περιπολίας</string>
   <string name="ipc_errmsg_add_memory_point_max">Ο αριθμός προστιθεμένων τοποθεσιών έχει φτάσει στο ανώτατο όριο. Πρώτα διαγράψτε μια ή περισσότερες τοποθεσίες.</string>
+  <string name="ipc_errmsg_ap_timeout">Παρέλευση ανταπόκρισης</string>
   <string name="ipc_errmsg_awaken_without_permission">Διαμοιρασμένη συσκευή. Μπορείτε να τη χειριστείτε</string>
   <string name="ipc_errmsg_change_definition_failed">Σαφήνεια Αποτυχίας Διακόπτη</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">Αποτυχία ενεργοποίησης περιπολίας τοποθεσίας γιατί λιγότερες από 2 τοποθεσίες είχαν προστεθεί</string>
@@ -2009,6 +2010,7 @@
   <string name="upgrading">Αναβάθμιση ...</string>
   <string name="upload_log_tip">Παρακαλόύμε ανεβάστε αρχεία καταγραφής για να μας βοηθήσετε να λύσουμε καλύτερα τα προβλήματα του δικτύου σας</string>
   <string name="user_exists">Ο Χρήστης Υπάρχει Ήδη</string>
+  <string name="user_logining">Φόρτωση…</string>
   <string name="user_share_detail">Λεπτομέρειες κοινής χρήσης</string>
   <string name="user_share_device_list">Λίστα συσκευών κοινής χρήσης</string>
   <string name="user_share_oren">Κοινή χρήση σε</string>
@@ -2031,7 +2033,6 @@
   <string name="voice_time_error">Λυπάμαι, δεν μπορώ να καταλάβω αυτό που είπατε</string>
   <string name="wait_reply">Σχόλια έχει λάβει, θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό</string>
   <string name="webview_reload">Φορτώνω πάλι</string>
-  <string name="wednesday">Τετάρτη</string>
   <string name="weekday">Εργάσιμη Ημέρα</string>
   <string name="weekend">Σαββατοκύριακο</string>
   <string name="which_room_has_device">Δωμάτιο:</string>

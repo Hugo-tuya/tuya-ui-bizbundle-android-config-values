@@ -123,7 +123,7 @@
   <string name="cancel_tip">OK</string>
   <string name="cannot_input_empty_string">Vstup nemôže byť prázdny</string>
   <string name="cannot_load_image">Nedá sa načítať obrázok</string>
-  <string name="cant_share_reason">Zdieľanie jednoho zariadenia nie je dočasne podporované pre zariadenie Bluetooth Mesh, zariadenie ZigBee a infračervené zariadenie. Je potrebné zdieľať príslušné zariadenia súčasne pre bežnú prevádzku.</string>
+  <string name="cant_share_reason">Zdieľanie jednoho zariadenia nie je dočasne podporované pre zariadenie Bluetooth Mesh, zariadenie Zigbee a infračervené zariadenie. Je potrebné zdieľať príslušné zariadenia súčasne pre bežnú prevádzku.</string>
   <string name="check_family">Zobraziť domov</string>
   <string name="check_firmware_update">Kontrola verzie firmwaru</string>
   <string name="check_update">Kontrola verzie firmwaru</string>
@@ -524,6 +524,7 @@
   <string name="ipc_electric_title">Riadenie napájania</string>
   <string name="ipc_errmasg_add_memory_point_cruise">Stránky sa nedajú pridať do režimu sledovania.</string>
   <string name="ipc_errmsg_add_memory_point_max">Počet stránok dosiahol hornú hranicu.</string>
+  <string name="ipc_errmsg_ap_timeout">Čas vypršal</string>
   <string name="ipc_errmsg_awaken_without_permission">Zdieľané zariadenie, nemáte povolenie na používanie</string>
   <string name="ipc_errmsg_change_definition_failed">Chyba prepnutia definície</string>
   <string name="ipc_errmsg_cruise_memorypint_limit">Automatické sledovanie stránok potrebuje minimálne 2 obľúbené stránky.</string>
@@ -1739,6 +1740,7 @@
   <string name="upgrading">Aktualizujem</string>
   <string name="upload_log_tip">Prosím nahrajte chybové protokoly, ktoré nám pomôžu lepšie vyriešiť vaše problémy so sieťou.</string>
   <string name="user_exists">Užívateľ už existuje</string>
+  <string name="user_logining">Nahrávam...</string>
   <string name="user_share_detail">Detaily zdieľania</string>
   <string name="user_share_device_list">Zoznam zdieľaných zariadení</string>
   <string name="user_share_oren">Zdieľanie s</string>
@@ -1761,7 +1763,6 @@
   <string name="voice_time_error">Prepáčte, nerozumel som</string>
   <string name="wait_reply">Ďakujeme za spätnú väzbu, skoro sa ohlásime</string>
   <string name="webview_reload">obnoviť</string>
-  <string name="wednesday">St</string>
   <string name="weekday">Pracovné dni</string>
   <string name="weekend">Víkend</string>
   <string name="widget_CFBundleDisplayName">Ovládanie skratky zariadenia</string>
